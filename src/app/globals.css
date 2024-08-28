@@ -8,6 +8,10 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -18,16 +22,47 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+.inner-custom-shadow {
+  box-shadow: inset 0 -50px 250px rgba(0,0,0,0.8);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.why-us-container div {
+  z-index : 10;
+}
+
+.why-us-container {
+  z-index : 20;
+}
+
+
+.why-us-container::before {
+  content: '';
+  background : linear-gradient(to right, #00D296, #00EAEA);;
+  position : absolute;
+  border-radius : .75rem;
+  width : 100px;
+  height : 100px;
+  top : -10px;
+  right : -10px;
+  z-index : 0;
+}
+
+.why-us-container::after {
+  content: '';
+  background : linear-gradient(to right, #00D296, #00EAEA);;
+  position : absolute;
+  border-radius : .75rem;
+  width : 100px;
+  height : 100px;
+  bottom : -10px;
+  left : -10px;
+  z-index : 0;
 }
