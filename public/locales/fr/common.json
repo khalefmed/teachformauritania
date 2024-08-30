@@ -1,0 +1,52 @@
+{
+    
+    "home" : "Acceuil",
+    "about" : "A propos",
+    "services" : "Services",
+    "contact" : "Contact",
+
+    "hero_title" : "Votre partenaire pour des solutions IT stratégiques et performantes",
+    "hero_desc" : "Avec Lynaat, bénéficiez de solutions complètes en Développement Web, Cybersécurité, et Intelligence Artificielle, pour transformer votre entreprise et atteindre vos objectifs commerciaux",
+    "hero_button" : "Discuttons",
+    "convivialite" : "Convivialité",
+    "competence" : "Competence",
+    "performance" : "Performance",
+    "efficacite" : "Efficacite",
+
+    "about_desc" : "Lynaat, entreprise de conseil en technologie et services informatiques spécialisés, est votre partenaire clé dans la transition numérique, offrant bien plus que des services informatiques. Nous créons des solutions personnalisées pour vous permettre d'exploiter pleinement les technologies modernes et d'atteindre vos objectifs. Que vous cherchiez à améliorer votre sécurité numérique, à développer des plateformes web et mobiles, à intégrer l'intelligence artificielle ou à tirer parti du Business Intelligence, nous faisons de vos défis des opportunités.",
+    "mission" : "Mission",
+    "vision" : "Vision",
+    "commitment" : "Engagement",
+    "mission_desc" : "Donner aux entreprises les moyens de se développer et d'améliorer leur efficacité grâce à des solutions informatiques innovantes.",
+    "vision_desc" : "Être un leader de l'innovation informatique, reconnu pour notre capacité à transformer les défis en opportunités.",
+    "commitment_desc" : "Engagés à l'excellence et au succès de nos clients grâce à des solutions fiables et de haute qualité.",
+
+    "cybersecurity" : "Cybersécurité",
+    "development" : "Développement",
+    "ai_bi" : "AI & BI",
+    "cybersecurity_desc" : "La sécurité est un enjeu majeur pour toute entreprise moderne. Chez Lynaat, Nous offrons à nos clients des services en cybersécurité, incluant l'évaluation des risques, la mise en place de systèmes de protection, la surveillance continue des menaces, et des audits de sécurité réguliers. Notre objectif est de protéger vos données sensibles contre les cyberattaques, les violations de données et autres menaces numériques.",
+    "development_desc" : "Nous offrons des services de développement couvrant le web, le mobile et le logiciel. Qu’il s’agisse de créer des sites, des applications mobiles ou des logiciels, nous proposons des solutions personnalisées adaptées aux besoins de chaque client, en mettant l'accent sur la performance, la sécurité et l'expérience utilisateur",
+    "ai_bi_desc" : "Chez Lynaat, nous utilisons l’intelligence artificielle, l’analyse de données, et des solutions de Business Intelligence pour optimiser vos processus, automatiser vos tâches, et améliorer la prise de décision. Nous développons des solutions d’apprentissage automatique, fournissons des analyses prédictives, et créons des chatbots et des assistants virtuels pour enrichir l'interaction client. Ces technologies vous permettent de prendre des décisions éclairées et de maintenir votre compétitivité dans ce contexte digital.",
+
+    "why_us" : "Pourquoi nous choisir ?",
+    "why_us_1" : "Solutions Personnalisées",
+    "why_us_2" : "Équipe d'Experts Certifiés",
+    "why_us_3" : "Approche Axée sur les Résultats",
+    "why_us_1_desc" : "Nous savons que chaque entreprise a ses propres besoins et défis. C'est pourquoi nous adoptons une approche entièrement personnalisée, en travaillant étroitement avec vous pour développer des solutions qui répondent précisément à vos objectifs. Que vous ayez besoin d'une refonte complète de votre infrastructure numérique ou de l'optimisation d'un processus existant, nous créons des stratégies qui alignent la technologie avec vos priorités commerciales",
+    "why_us_2_desc" : "Chez Lynaat, notre équipe est notre plus grande force. Nous rassemblons des professionnels hautement qualifiés, chacun certifié dans son domaine d'expertise, qu'il s'agisse de développement web, de cybersécurité, ou d'intelligence artificielle. Nos experts sont constamment à la pointe des dernières avancées technologiques et des meilleures pratiques de l'industrie, ce qui vous garantit des meilleures solutions possibles",
+    "why_us_3_desc" : "Nous mesurons notre succès par le vôtre. Chez Lynaat, chaque projet que nous entreprenons est guidé par une obsession des résultats tangibles. Nous ne nous contentons pas de fournir des solutions ; nous nous assurons qu'elles génèrent des impacts réels sur vos performances et votre rentabilité. Que ce soit pour améliorer l'efficacité opérationnelle, renforcer la sécurité de vos données, ou accélérer l'innovation, nous sommes là pour vous aider à atteindre vos objectifs avec efficacité.",
+
+    "contact_us" : "Contactez-nous",
+    "contact_us_desc" : "Envie de concrétiser vos idées ? Nous sommes là pour vous accompagner.",
+    "full_name" : "Nom complet",
+    "email_adress" : "Adresse email",
+    "message" : "Message",
+    "submit" : "Soumettre",
+
+    "links" : "Liens",
+    "social_media" : "Réseaux sociaux"
+    
+    
+
+
+}

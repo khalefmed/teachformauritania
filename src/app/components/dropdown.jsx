@@ -6,6 +6,7 @@ import {
   Square2StackIcon,
   TrashIcon,
 } from '@heroicons/react/16/solid'
+import DropDownLang from './dropdown_lang'
 
 export default function DropDown() {
   return (
@@ -42,6 +43,12 @@ export default function DropDown() {
             <button className="group flex w-full items-center gap-2 text-blackColor font-semibold rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
              
             <a href="#contact">Contact</a>
+            </button>
+          </MenuItem>
+          <MenuItem>
+            <button className="group flex w-full items-center gap-2 text-blackColor font-semibold rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+             
+            <DropDownLang/>
             </button>
           </MenuItem>
         </MenuItems>
