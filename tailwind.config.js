@@ -36,6 +36,7 @@ module.exports = {
       },
       fontFamily : {
         sora : ["Sora", "sans-serif"],
+        tajawal : ["Cairo", "sans-serif"],
         poppins : ["Poppins", "sans-serif"]
       }
     },

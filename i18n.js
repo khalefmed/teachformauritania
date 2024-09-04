@@ -6,7 +6,7 @@ i18n
   .init({
     fallbackLng: 'en', // Should match defaultLocale in next-i18next.config.js
     debug: process.env.NODE_ENV === 'development',
-    supportedLngs: ['fr', 'en'], // Should match locales in next-i18next.config.js
+    supportedLngs: ['fr', 'en', 'ar'], // Should match locales in next-i18next.config.js
     ns: ['common'],
     defaultNS: 'common',
     resources: {
@@ -15,6 +15,9 @@ i18n
       },
       en: {
         common: require('./public/locales/en/common.json'),
+      },
+      ar: {
+        common: require('./public/locales/ar/common.json'),
       },
     },
   });

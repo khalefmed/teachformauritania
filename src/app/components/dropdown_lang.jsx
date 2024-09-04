@@ -21,13 +21,14 @@ export default function DropDownLang() {
 
   const changeLang = (lang) => {
     changeLanguage(lang);
-    window.localStorage.setItem("lang", lang)
+    window.localStorage.setItem("language", lang);
   }
 
 
   const flags = {
     "en" : "british_flag.webp",
     "fr" : "france_flag.webp",
+    "ar" : "saudi_flag.webp",
   }
   return (
     <div className=" text-right ">
@@ -62,6 +63,15 @@ export default function DropDownLang() {
             <button onClick={() => changeLang('en')} className="flex flex-row gap-2 items-center" href="hero">
               <img src="british_flag.webp" width={20} alt="" />
               English
+            </button>
+            </button>
+          </MenuItem>
+          <MenuItem>
+            <button className="group flex w-full items-center gap-2 text-blackColor font-semibold rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+              
+            <button onClick={() => changeLang('ar')} className="flex flex-row gap-2 items-center" href="hero">
+              <img src="saudi_flag.webp" width={20} alt="" />
+              العربية
             </button>
             </button>
           </MenuItem>
