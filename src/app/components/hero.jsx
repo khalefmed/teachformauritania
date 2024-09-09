@@ -8,7 +8,7 @@ import { motion, useAnimation } from 'framer-motion';
 export const Hero = () => {
     const {t, i18n} = useTranslation();
     return (
-        <section id='hero' className='overflow-hidden max-w-screen px-28 max-lg:p-28 max-md:px-20 max-sm:px-8 flex flex-row max-lg:flex-col max-lg:gap-16 max-sm:gap-0 items-center align-center justify-between max-lg:justify-center items-center min-h-[calc(0vh-0px)] max-sm:min-h-screen   '>
+        <section id='hero' className='overflow-hidden max-w-screen px-28 max-lg:p-28 max-md:px-20 max-sm:px-8 flex flex-row max-lg:flex-col max-lg:gap-16 max-sm:gap-0  align-center justify-between max-lg:justify-center items-center min-h-[calc(100vh-0px)] max-sm:min-h-screen   '>
             <div className='w-1/2 max-lg:w-full max-lg:text-center max-lg:items-center flex flex-col gap-5 '>
                 <motion.h3
                 initial = {{
