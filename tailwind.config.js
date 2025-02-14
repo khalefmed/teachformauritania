@@ -15,13 +15,14 @@ module.exports = {
       colors : {
         blackColor : "#324460",
         secondBlackColor : "#678CC6",
-        mainGreen : "#00D296",
-        secondGreen : "#00EAEA",
+        main : "#253F23",
+        second : "#4E8646",
+        transparent : "#61A55C4A",
         white : "#ffffff",
-        cardGrey : "#F8FAFC",
+        cardGrey : "#B2B0B01D",
         shadow : "#32446085",
         whiteShadow : "#32446023",
-        fieldColor : "#DFE7F465",
+        fieldColor : "#4D864614",
         fieldText : "#B0BDD2",
         blurGreen : "#00D29784",
         blurBlue : "#0085D271"

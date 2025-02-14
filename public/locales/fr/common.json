@@ -3,31 +3,63 @@
     "home" : "Acceuil",
     "about" : "À propos",
     "services" : "Services",
+    "program" : "Programme",
+    "activities" : "Actualités",
     "contact" : "Contact",
 
-    "hero_title" : "Votre partenaire pour des solutions IT stratégiques et performantes",
-    "hero_desc" : "Avec Lynaat, bénéficiez de solutions complètes en Développement Web, Cybersécurité, et Intelligence Artificielle, pour transformer votre entreprise et atteindre vos objectifs commerciaux",
-    "hero_button" : "Discuttons",
-    "convivialite" : "Convivialité",
-    "competence" : "Competence",
-    "performance" : "Performance",
-    "efficacite" : "Efficacite",
+    "hero_title" : "Teach for Mauritania",
+    "hero_desc" : "Renforcer l'enseignement pour améliorer l'avenir des enfants, à travers le leadership.",
+    "hero_button" : "Contactez-nous",
 
-    "about_desc" : "Lynaat, entreprise de conseil en technologie et services informatiques spécialisés, est votre partenaire clé dans la transition numérique, offrant bien plus que des services informatiques. Nous créons des solutions personnalisées pour vous permettre d'exploiter pleinement les technologies modernes et d'atteindre vos objectifs. Que vous cherchiez à améliorer votre sécurité numérique, à développer des plateformes web et mobiles, à intégrer l'intelligence artificielle ou à tirer parti du Business Intelligence, nous faisons de vos défis des opportunités.",
+    "about_desc" : "Teach for Mauritania (TFM) est une organisation nationale, indépendante et à but non lucratif, dédiée à garantir que chaque enfant en Mauritanie ait accès à une éducation de qualité et inclusive. Nous recrutons et formons des diplômés passionnés, en les transformant en leaders et enseignants capables d'inspirer un changement dans les communautés vulnérables. ",
     "mission" : "Mission",
     "vision" : "Vision",
-    "commitment" : "Engagement",
-    "mission_desc" : "Donner aux entreprises les moyens de se développer et d'améliorer leur efficacité grâce à des solutions informatiques innovantes.",
-    "vision_desc" : "Être un leader de l'innovation informatique, reconnu pour notre capacité à transformer les défis en opportunités.",
-    "commitment_desc" : "Engagés à l'excellence et au succès de nos clients grâce à des solutions fiables et de haute qualité.",
+    "values" : "Valeurs",
+    "mission_desc" : "Offrir une éducation de qualité et inclusive pour tous les enfants en Mauritanie",
+    "vision_desc" : "Former des leaders capables de transformer les communautés par l’éducation",
+    "values_desc" : "Leadership, équité, inclusion, et impact social et communautaire",
+    "more_details" : "Plus de details",
 
+    "actual_situation" : "Situation actuelle",
+    "situation_1_title" : "Élèves scolarisés",
+    "situation_1_desc" : "727 513 élèves étaient inscrits au niveau fondamental en 2021/2022.",
+
+    "situation_2_title" : "Déficit d'enseignants",
+    "situation_2_desc" : "Manque significatif en nombre et en qualité des enseignants dans les salles de classe.",
+
+    "situation_3_title" : "Faibles taux de scolarisation",
+    "situation_3_desc" : "29% des filles et 35% des garçons ne terminent pas leur scolarité primaire.",
+
+    "situation_4_title" : "Classes multigrades",
+    "situation_4_desc" : "47% des écoles rurales proposent des classes où plusieurs niveaux sont regroupés",
+
+    "situation_5_title" : "Absentéisme des enseignants",
+    "situation_5_desc" : "Le taux d’absentéisme atteint 29%, ce dans les école publiques",
+
+    "situation_6_title" : "Faibles performances scolaires",
+    "situation_6_desc" : "En mathématiques, seulement 19% des élèves du public atteignent 50% ou plus du score global, contre 48% dans le privé.",
+
+    "situation_7_title" : "Ressources limitées",
+    "situation_7_desc" : "Les écoles manquent d'infrastructures, d'équipements et de moyens financiers adéquats.",
+
+    "situation_8_title" : "Conséquences sociales",
+    "situation_8_desc" : "Les faibles performances scolaires entraînent un accès limité à l’emploi et favorisent une forte émigration des jeunes",
+    
+    "goal" : "Objectif",
+    "goal_1" : "Enfants impactés dans plus de 20 écoles défavorisées",
+    "goal_2" : "Taux de réussite des élèves dans nos écoles cibles",
+    "goal_3" : "Diplômés formés et devenus enseignants leaders",
+    "goal_4" : "Durée de l’impact mesurable sur la qualité de l’éducation",
+
+    "partners" : "Partenaires",
+    
     "cybersecurity" : "Cybersécurité",
     "development" : "Développement",
     "ai_bi" : "AI & BI",
     "cybersecurity_desc" : "La sécurité est un enjeu majeur pour toute entreprise moderne. Chez Lynaat, Nous offrons à nos clients des services en cybersécurité, incluant l'évaluation des risques, la mise en place de systèmes de protection, la surveillance continue des menaces, et des audits de sécurité réguliers. Notre objectif est de protéger vos données sensibles contre les cyberattaques, les violations de données et autres menaces numériques.",
     "development_desc" : "Nous offrons des services de développement couvrant le web, le mobile et le logiciel. Qu’il s’agisse de créer des sites, des applications mobiles ou des logiciels, nous proposons des solutions personnalisées adaptées aux besoins de chaque client, en mettant l'accent sur la performance, la sécurité et l'expérience utilisateur",
     "ai_bi_desc" : "Chez Lynaat, nous utilisons l’intelligence artificielle, l’analyse de données, et des solutions de Business Intelligence pour optimiser vos processus, automatiser vos tâches, et améliorer la prise de décision. Nous développons des solutions d’apprentissage automatique, fournissons des analyses prédictives, et créons des chatbots et des assistants virtuels pour enrichir l'interaction client. Ces technologies vous permettent de prendre des décisions éclairées et de maintenir votre compétitivité dans ce contexte digital.",
-
+    
     "why_us" : "Pourquoi nous choisir ?",
     "why_us_1" : "Solutions Personnalisées",
     "why_us_2" : "Équipe d'Experts Certifiés",
@@ -35,18 +67,140 @@
     "why_us_1_desc" : "Nous savons que chaque entreprise a ses propres besoins et défis. C'est pourquoi nous adoptons une approche entièrement personnalisée, en travaillant étroitement avec vous pour développer des solutions qui répondent précisément à vos objectifs. Que vous ayez besoin d'une refonte complète de votre infrastructure numérique ou de l'optimisation d'un processus existant, nous créons des stratégies qui alignent la technologie avec vos priorités commerciales",
     "why_us_2_desc" : "Chez Lynaat, notre équipe est notre plus grande force. Nous rassemblons des professionnels hautement qualifiés, chacun certifié dans son domaine d'expertise, qu'il s'agisse de développement web, de cybersécurité, ou d'intelligence artificielle. Nos experts sont constamment à la pointe des dernières avancées technologiques et des meilleures pratiques de l'industrie, ce qui vous garantit des meilleures solutions possibles",
     "why_us_3_desc" : "Nous mesurons notre succès par le vôtre. Chez Lynaat, chaque projet que nous entreprenons est guidé par une obsession des résultats tangibles. Nous ne nous contentons pas de fournir des solutions ; nous nous assurons qu'elles génèrent des impacts réels sur vos performances et votre rentabilité. Que ce soit pour améliorer l'efficacité opérationnelle, renforcer la sécurité de vos données, ou accélérer l'innovation, nous sommes là pour vous aider à atteindre vos objectifs avec efficacité.",
-
+    
     "contact_us" : "Contactez-nous",
     "contact_us_desc" : "Envie de concrétiser vos idées ? Nous sommes là pour vous accompagner.",
     "full_name" : "Nom complet",
     "email_adress" : "Adresse email",
     "message" : "Message",
     "submit" : "Soumettre",
-
+    "phone" : "Télephone",
+    "mail" : "Adresse électronique",
+    "adress" : "Adresse",
+    
     "links" : "Liens",
-    "social_media" : "Réseaux sociaux"
+    "social_media" : "Réseaux sociaux",
+
+    "fr" : "Français",
+    "en" : "English",
+    "ar" : "Arabe",
+
+
+    "about_page_content" : "Teach for Mauritania (TFM) est une organisation nationale, indépendante et à but non lucratif, fondée avec pour mission de garantir que chaque enfant en Mauritanie ait accès à une éducation de qualité, quelle que soit sa situation socio-économique. Nous croyons fermement que l’éducation est le pilier fondamental du développement humain, social et économique, et qu’un investissement dans l’apprentissage des enfants d’aujourd’hui forge un avenir meilleur pour toute la société. TFM s’engage à combler les lacunes du système éducatif mauritanien en recrutant des diplômés passionnés et talentueux issus de divers domaines. Ces jeunes professionnels sont formés et accompagnés pour devenir des leaders et des enseignants capables de transformer les salles de classe et d’inspirer un changement positif dans les communautés les plus vulnérables. Notre programme repose sur une approche innovante qui combine pédagogie de qualité, leadership communautaire et engagement social. Les participants suivent une formation rigoureuse qui leur permet non seulement de développer des compétences pédagogiques solides, mais aussi de devenir des agents du changement. Ils interviennent dans les écoles et les communautés les plus défavorisées, où leur impact est le plus nécessaire. Au-delà de l’enseignement, TFM vise à renforcer les capacités des communautés en favorisant la collaboration entre les enseignants, les parents et les responsables locaux. Nous croyons que chaque enfant mérite non seulement une éducation, mais aussi un environnement où il peut s’épanouir, développer son potentiel et rêver grand.",
+    
+    "team" : "Notre équipe",
+
+
+    "fellowship" : "Candidature",
+
+    "fellowship_p_1" : "Ce programme s'adresse à des diplômés motivés et à des professionnels issus de divers milieux académiques. Les critères d'éligibilité sont les suivants :",
+    
+    "fellowship_li_1" : "Être Mauritanien et avoir entre 19 et 45 ans au moment de la candidature. ",
+    "fellowship_li_2" : "Être titulaire d'un diplôme universitaire avec un minimum de xx.",
+    "fellowship_li_3" : "Doit avoir au moins 5 crédits de O'Level en mathématiques et en anglais.",
+
+    "fellowship_p_2" : "Notre modèle de sélection est conçu pour identifier les diplômés et les jeunes professionnels qui ont le potentiel pour devenir des leaders transformateurs dans la salle de classe, l'école et la communauté.",
+    "fellowship_p_3" : "Nous recherchons des candidats qui présentent les caractéristiques suivantes:",
+    
+    "fellowship_li_4": "Croire au potentiel de tous les enfants",
+    "fellowship_li_5": "Croire en une éducation équitable et de qualité pour tous les enfants",
+    "fellowship_li_6": "Avoir de bons résultats scolaires, personnels et/ou professionnels",
+    "fellowship_li_7": "Démontrer un potentiel de leadership dans divers contextes",
+    "fellowship_li_8": "Persévérance face aux défis",
+    "fellowship_li_9": "Capacité à s'adapter à des environnements changeants",
+    "fellowship_li_10": "Excellentes compétences interpersonnelles et capacité à motiver les autres",
+    "fellowship_li_11": "Respect et empathie pour les différentes expériences des individus",
+    "fellowship_li_12": "Étiquette professionnelle et bonne gestion du temps",
+    "fellowship_li_13": "Engagement à long terme pour atteindre les objectifs",
+    "fellowship_li_14": "Un état d'esprit axé sur la croissance",
+    
+    "engagement" : "Engagement",
     
     
+    "fellowship_engagement_li_1": "Je suis en mesure de participer à l'Institut d'été de 8 semaines.",
+    "fellowship_engagement_li_2": "Je suis prêt(e) à m'engager à passer deux ans en tant qu'enseignant(e) à temps plein dans une école publique en Mauritanie, conformément au calendrier académique du Ministère de l'Éducation Nationale et de la Réforme.",
+    "fellowship_engagement_li_3": "Je suis en mesure d'assister à toutes les activités de formation et de développement requises pendant le Leadership Journey conformément au calendrier académique du Ministère de l'Éducation Nationale et de la Réforme.",
+    
+    "fellowship_p_4" : "A Teach For Mauritania, nous nous efforçons d'apporter des solutions alternatives aux défis auxquels sont confrontés les enfants mauritaniens, en offrant aux personnes qui n'ont pas d'expérience préalable dans l'enseignement une occasion unique de rendre service à la société.",
+    "fellowship_p_5" : "Pour être admis, les candidats doivent réussir les étapes suivantes :",
+    "fellowship_p_6" : "Remplir le formulaire de candidature",
+    "fellowship_p_7" : "Participer à des entretiens individuels",
+
+    "program_title_1" : "Récrutement, sélection et intégration",
+    "program_date_1" : "Avril 2025 - Juin 2025",
+    "program_desc_1" : "Teach For Mauritania recrute les meilleurs diplômés universitaires et jeunes professionnels pour une mission de deux ans, visant à enseigner et à avoir un impact durable sur la réussite et l'avenir des enfants",
+   
+    "program_title_2" : "Formation - Institut d’été",
+    "program_date_2" : "Mars 2025 - Octobre 2025",
+    "program_desc_2" : "Nous offrons aux participants  une formation rigoureuse et un développement personnel et professionnel. La formation commence par des cours intensifs de huit semaines, dirigés par des formateurs expérimentés, et se poursuit par un soutien continu au développement des Fellows tout au long de leurs deux années d'engagement avec l'organisation.",
+  
+    "program_title_3" : "Placement",
+    "program_date_3" : "Mars 2025 - Octobre 2025",
+    "program_desc_3" : "Après avoir terminé avec succès votre formation au Summer Institute, les enseignants sont ensuite déployés dans les écoles qui leur sont assignées en fonction des postes vacants, pour enseigner dans le primaire pour un programme d'enseignement rémunéré de 2 ans. Ils participeront également à des formations tout au long de leurs deux années d'enseignement.",
+    
+    "program_title_4" : "Enseignement et formation",
+    "program_date_4" : "Mars 2025 - Octobre 2025",
+    "program_desc_4" : "Teach For Mauritania fournira aux participants diverses formes de soutien à chaque étape de leur voyage. Ils recevront régulièrement la visite de leur responsable de programme, qui les guidera dans le développement de leur enseignement et leur donnera les moyens d'avoir le plus grand impact possible dans leur classe.",
+    
+    "program_title_5" : "Alumni",
+    "program_date_5" : "Mars 2025 - Octobre 2025",
+    "program_desc_5" : "Après la Fellowship, tous nos participants ont accès à notre mouvement d'anciens fellows. Cette communauté permet aux gens d'apprendre et d'agir ensemble en faveur de l'équité en matière d'éducation",
+  
+    "program_title_6" : "Suivi et évaluation",
+    "program_date_6" : "Mars 2025 - Octobre 2025",
+    "program_desc_6" : "Un suivi et un développement continus sont mis en place pour garantir la réussite de tous les Fellows pendant leurs deux années dans les écoles et les communautés où ils sont affectés. Ainsi qu a l’evaluation de la reussite des enfants dans chaque ecole partneriare de TFM. ",
+
+    "program_alim" : "Programme \"Alim \" ",
+
+
+    "apply_p_1": "Avant de commencer le formulaire d'inscription, vous devez reconnaître que vous répondez aux critères ci-dessous, devenant ainsi éligible pour postuler à la bourse Teach For Mauritania :",
+    "apply_li_1": "Je suis titulaire d'une licence.",
+    "apply_li_2": "Je ne suis pas actuellement employé par le Ministère de l'Education Nationale et de la Réforme.",
+    "apply_li_3": "J'ai pris connaissance des conditions d'éligibilité.",
+    "apply_p_2": "Où avez-vous entendu parler de nous ?",
+    "reason_to_join": "Pourquoi voulez-vous faire partie de Teach For Mauritania ?",
+    "opportunity_vision": "Comment envisagez-vous de tirer parti de cette opportunité et quelles compétences ou connaissances spécifiques souhaitez-vous acquérir au cours de ces deux années d’enseignement ? Comment envisagez-vous de mettre à profit vos compétences et expériences après avoir terminé le programme de bourse de deux ans ? (300 mots)",
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "title": "Titre",
+    "bithday": "Date de naissance",
+    "sexe": "Sexe",
+    "male": "Homme",
+    "female": "Femme",
+    "familial_situation": "Situation familiale",
+    "nationality": "Nationalité",
+    "current_city": "Ville actuelle",
+    "phone_number": "Numéro de téléphone",
+    "alternative_phone_number": "Numéro de téléphone alternatif",
+    "formation_education": "Formation et Éducation",
+    "university": "Université",
+    "qualification": "Qualification",
+    "subject": "Domaine d'étude",
+    "degree_title": "Titre du diplôme",
+    "debut_date": "Date de début",
+    "end_date": "Date de fin",
+    "niveau_francais": "Niveau en français",
+    "niveau_arabe": "Niveau en arabe",
+    "niveau_anglais": "Niveau en anglais",
+    "Facebook": "Facebook",
+    "Instagram": "Instagram",
+    "LinkedIn": "LinkedIn",
+    "Evenement Teach for Mauritania": "Événement Teach For Mauritania",
+    "Alumni": "Alumni",
+    "Autres": "Autres",
+    "ready_to_move": "Êtes-vous prêt à vous déplacer ?",
+    "oui": "Oui",
+    "non": "Non",
+    "select_reason": "Sélectionnez une raison",
+    "Enseigner": "Enseigner",
+    "Impact social": "Impact social",
+    "Formation": "Formation",
+    "Autre": "Autre",
+    "opportunity_vision_placeholder": "Décrivez comment vous envisagez de tirer parti de cette opportunité...",
+    "additional_info": "Informations supplémentaires",
+      
+
+    "apply_button" : "Postuler au programme"
 
 
 }

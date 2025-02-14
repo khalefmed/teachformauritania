@@ -1,0 +1,8 @@
+- Integrating the form to post 
+- Integrate more informations on click on  the program cards
+- Integrate sanity for activities
+- Add the animation 
+- Adjust to screens  
+- Make translation   
+- Update mail form sender   
+- Internal header links
