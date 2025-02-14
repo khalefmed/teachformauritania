@@ -24,7 +24,7 @@ export default function AboutPage() {
 
   return (
     <main
-      className="bg-white w-screen overflow-x-hidden font-poppins"
+      className="bg-white w-screen overflow-x-hidden"
       dir={langDir[i18n.language] || 'ltr'}
     >
       <HeaderInside />

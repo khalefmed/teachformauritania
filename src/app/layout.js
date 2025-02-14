@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://teachformauritania.org" />
       </head>
-      <body style={{ fontFamily: font.style.fontFamily }} className="w-screen ">{children}</body>
+      <body className="w-screen ">{children}</body>
     </html>
   );
 }

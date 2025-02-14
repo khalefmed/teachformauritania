@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <main
-      className="bg-white font-poppins "
+      className="bg-white  "
       dir={langDir[i18n.language] || 'ltr'}
     >
       <Header />
