@@ -188,6 +188,7 @@
     "Autre": "أخرى",
     "opportunity_vision_placeholder": "صف كيف تخطط للاستفادة من هذه الفرصة...",
     "additional_info": "معلومات إضافية",
-    "apply_button": "تقديم الطلب للبرنامج"
+    "apply_button": "تقديم الطلب للبرنامج",
+    "apply_now_button" : "إرسال طلبي"
     
 }
