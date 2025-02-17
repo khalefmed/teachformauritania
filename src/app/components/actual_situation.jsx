@@ -42,12 +42,12 @@ export const ActualSituation = () => {
                             opacity : 1,
                             transition : {duration : 1}
                         }}
-                         className='w-[300px] bg-cardGrey px-6 py-8 rounded-lg flex flex-col items-start justify-center gap-2'>
+                         className='w-[300px] bg-cardGrey h-[260px] px-6 py-8 rounded-lg flex flex-col items-start justify-start gap-2'>
                             <div className='rounded-md bg-transparent w-16 h-16 flex align-center justify-center p-3'>
                                 <img src={`images/situation_${el}.png`}  alt="" />
                             </div>
-                            <h2 className='font-semibold text-sm bg-clip-text  text-main'>{t(`situation_${el}_title`)}</h2>
-                            <p className='font-normal text-blackColor text-xs text-start'>{t(`situation_${el}_desc`)}</p>
+                            <h2 className='font-bold text-lg bg-clip-text  text-main'>{t(`situation_${el}_title`)}</h2>
+                            <p className='font-medium text-blackColor text-sm text-start'>{t(`situation_${el}_desc`)}</p>
                         </motion.div>
                         
                     })

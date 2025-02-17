@@ -1,3 +1,4 @@
+
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import {
   ArchiveBoxXMarkIcon,
@@ -7,14 +8,16 @@ import {
   TrashIcon,
 } from '@heroicons/react/16/solid'
 import Link from 'next/link'
-import DropDownLang from './dropdown_lang'
+import { useTranslation } from 'react-i18next';
+import DropDownLangInside2 from './dropdown_lang_inside_2';
 
-export default function DropDownInside() {
+export default function DropDownInside2() {
+  const {t, i18n} = useTranslation();
   return (
     <div className=" z-0 text-right md:hidden ">
       <Menu >
         <MenuButton className="inline-flex items-center gap-2 rounded-md bg-transparent py-1.5 px-3 text-sm/6 font-semibold text-white  focus:outline-none   data-[focus]:outline-1 ">
-          <img src="/images/menu.png"  width={25} alt="" />
+          <img src="../images/menu.png"  width={25} alt="" />
         </MenuButton>
 
         <MenuItems
@@ -24,32 +27,38 @@ export default function DropDownInside() {
         >
           <MenuItem>
             <button className="group flex w-full items-center gap-2 text-blackColor font-semibold rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
-            <Link href="/">Home</Link>
+            <Link href="/">{t('home')}</Link>
               
             </button>
           </MenuItem>
           <MenuItem>
             <button className="group flex w-full items-center gap-2 text-blackColor font-semibold rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
               
-            <Link href="/#about">About</Link>
+            <Link href="/#about">{t('about')}</Link>
             </button>
           </MenuItem>
           <MenuItem>
             <button className="group flex w-full items-center gap-2 text-blackColor font-semibold rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
           
-            <Link href="/#services">Services</Link>
+            <Link href="/#program">{t('program')}</Link>
             </button>
           </MenuItem>
           <MenuItem>
             <button className="group flex w-full items-center gap-2 text-blackColor font-semibold rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
              
-            <Link href="/#contact">Contact</Link>
+            <Link href="/#activities">{t('activities')}</Link>
             </button>
           </MenuItem>
           <MenuItem>
             <button className="group flex w-full items-center gap-2 text-blackColor font-semibold rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
              
-            <DropDownLang/>
+            <Link href="/#contact">{t('contact')}</Link>
+            </button>
+          </MenuItem>
+          <MenuItem>
+            <button className="group flex w-full items-center gap-2 text-blackColor font-semibold rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+             
+            <DropDownLangInside2/>
             </button>
           </MenuItem>
         </MenuItems>

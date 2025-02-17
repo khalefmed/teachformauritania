@@ -19,7 +19,7 @@ export const Partners = () => {
             }
             <hr className='w-40 text-center border-black border-[1.75px] rounded-full' />
             </div>
-            <div className='flex flex-row max-md:flex-col  flex-wrap   items-start max-sm:items-center justify-center '>
+            <div className='flex flex-row max-md:flex-col  flex-wrap   items-center max-sm:items-center justify-center '>
                     <div className='w-[200px] px-6 py-8 flex flex-row items-center max-md:flex-col justify-center gap-16'>
                         <motion.img
                         initial = {{

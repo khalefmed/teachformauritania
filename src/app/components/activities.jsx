@@ -11,13 +11,7 @@ export const Activities = () => {
 
     useEffect(() => {
         const fetchNews = async () => {
-            const query = `*[_type == "news"] | order(news_date desc) [0..2] {
-                news_headline_fr,
-                news_headline_en,
-                news_headline_ar,
-                "news_image": news_image.asset->url,
-                news_date
-            }`;
+            const query = `*[_type == "news"] | order(news_date desc) [0..2]`;
             
             const data = await client.fetch(query);
             setNews(data);
@@ -33,9 +27,9 @@ export const Activities = () => {
                 </h1>
                 <hr className='w-40 text-center border-black border-[1.75px] rounded-full' />
             </div>
-            <div className='flex flex-row max-md:flex-col gap-12 flex-wrap items-start max-sm:items-center justify-center'>
+            <div className='flex flex-row max-md:flex-col gap-12 flex-wrap items-center max-sm:items-center justify-center'>
                 {news.map((item, index) => (
-                    <motion.div
+                    <motion.a key={index} href={`/news/${item._id}`} passHref
                     initial = {{
                         x : 0,
                         y : 70,
@@ -47,7 +41,7 @@ export const Activities = () => {
                         opacity : 1,
                         transition : {duration : 1.5}
                     }}
-                     key={index} className='w-[300px] px-2 py-2 cursor-pointer hover:scale-50 transform rounded-lg shadow-lg flex flex-col items-start justify-start gap-4'>
+                     className='w-[300px] px-2 py-2 cursor-pointer hover:scale-50 transform rounded-lg shadow-lg flex flex-col items-start justify-start gap-4'>
                         <div className="w-full h-48 rounded-lg">
                             <img 
                                 src={item.news_image ? urlFor(item.news_image).width(300).url() : "/images/placeholder.jpg"} 
@@ -63,8 +57,17 @@ export const Activities = () => {
                                 {item[`news_headline_${i18n.language}`]}
                             </h2>
                         </div>
-                    </motion.div>
+                    </motion.a>
                 ))}
+                
+            </div>
+            <div className='flex items-center justify-center' >
+                <a href='/news'>
+                    <div className='px-8 py-3 rounded-md bg-gradient-to-r from-main to-second w-fit text-white font-md  mt-4 text-md'>
+                        {t('all_news')}
+                    </div>
+                    
+                </a>
             </div>
         </section>
     );

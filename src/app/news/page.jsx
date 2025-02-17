@@ -2,10 +2,7 @@
 
 import { useEffect } from "react";
 import { useTranslation } from "next-i18next";
-import { AboutPageComponent } from "../components/about_page";
-import { Header } from "../components/header";
 import { Footer } from "../components/footer";
-import { Fellowship } from "../components/fellowship";
 import { HeaderInside } from "../components/header_inside";
 import { ActivitiesList } from "../components/activities_list";
 
