@@ -42,7 +42,7 @@ export const ActualSituation = () => {
                             opacity : 1,
                             transition : {duration : 1}
                         }}
-                         className='w-[300px] bg-cardGrey h-[260px] px-6 py-8 rounded-lg flex flex-col items-start justify-start gap-2'>
+                         className='w-[320px] bg-cardGrey h-[260px] px-6 py-8 rounded-lg flex flex-col items-start justify-start gap-2'>
                             <div className='rounded-md bg-transparent w-16 h-16 flex align-center justify-center p-3'>
                                 <img src={`images/situation_${el}.png`}  alt="" />
                             </div>

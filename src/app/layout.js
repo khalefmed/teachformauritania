@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/public/logo.png" />
         <meta property="og:title" content="Teach For Mauritania - Empowering Education" />
         <meta
           property="og:description"
