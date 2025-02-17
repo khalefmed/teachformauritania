@@ -9,37 +9,37 @@ export const Program = () => {
     const { t, i18n } = useTranslation();
     const program = [
         {
-            "image" : "images/hero_background.jpg",
+            "image" : "images/program_1.jpg",
             "title" : t('program_title_1'),
             "date" : t('program_date_1'),
             "description" : t('program_desc_1')
         },
         {
-            "image" : "images/hero_background.jpg",
+            "image" : "images/program_2.jpg",
             "title" : t('program_title_2'),
             "date" : t('program_date_2'),
             "description" : t('program_desc_2')
         },
         {
-            "image" : "images/hero_background.jpg",
+            "image" : "images/program_3.jpg",
             "title" : t('program_title_3'),
             "date" : t('program_date_3'),
             "description" : t('program_desc_3')
         },
         {
-            "image" : "images/hero_background.jpg",
+            "image" : "images/program_4.jpg",
             "title" : t('program_title_4'),
             "date" : t('program_date_4'),
             "description" : t('program_desc_4')
         },
         {
-            "image" : "images/hero_background.jpg",
+            "image" : "images/program_5.jpg",
             "title" : t('program_title_5'),
             "date" : t('program_date_5'),
             "description" : t('program_desc_5')
         },
         {
-            "image" : "images/hero_background.jpg",
+            "image" : "images/program_6.jpg",
             "title" : t('program_title_6'),
             "date" : t('program_date_6'),
             "description" : t('program_desc_6')

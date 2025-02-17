@@ -34,7 +34,7 @@ export const Partners = () => {
                             transition : {duration : 1}
                         }} 
                          src="images/ministere.png" height={20} width={80} alt="" />
-                        <motion.img
+                        {/* <motion.img
                         initial = {{
                             x : 0,
                             y : 30,
@@ -72,7 +72,7 @@ export const Partners = () => {
                             opacity : 1,
                             transition : {duration : 1}
                         }} 
-                         src="images/una.png" height={20} width={80} alt="" />
+                         src="images/una.png" height={20} width={80} alt="" /> */}
                     </div>
             </div>
         </section>

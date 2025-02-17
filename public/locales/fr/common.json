@@ -9,7 +9,7 @@
 
     "hero_title" : "Teach for Mauritania",
     "hero_desc" : "Renforcer l'enseignement pour améliorer l'avenir des enfants, à travers le leadership.",
-    "hero_button" : "Contactez-nous",
+    "hero_button" : "Postuler maintenant",
 
     "about_desc" : "Teach for Mauritania (TFM) est une organisation nationale, indépendante et à but non lucratif, dédiée à garantir que chaque enfant en Mauritanie ait accès à une éducation de qualité et inclusive. Nous recrutons et formons des diplômés passionnés, en les transformant en leaders et enseignants capables d'inspirer un changement dans les communautés vulnérables. ",
     "mission" : "Mission",
@@ -96,7 +96,7 @@
     "fellowship_p_1" : "Ce programme s'adresse à des diplômés motivés et à des professionnels issus de divers milieux académiques. Les critères d'éligibilité sont les suivants :",
     
     "fellowship_li_1" : "Être Mauritanien et avoir entre 19 et 45 ans au moment de la candidature. ",
-    "fellowship_li_2" : "Être titulaire d'un diplôme universitaire avec un minimum de xx.",
+    "fellowship_li_2" : "Être titulaire d'un diplôme universitaire avec un minimum de niveau licence.",
     "fellowship_li_3" : "Doit avoir au moins 5 crédits de O'Level en mathématiques et en anglais.",
 
     "fellowship_p_2" : "Notre modèle de sélection est conçu pour identifier les diplômés et les jeunes professionnels qui ont le potentiel pour devenir des leaders transformateurs dans la salle de classe, l'école et la communauté.",
