@@ -22,7 +22,7 @@ export const Hero = () => {
                     opacity : 1,
                     transition : {duration : 1}
                 }}
-                 className='text-white text-4xl max-lg:text-5xl max-md:text-3xl max-sm:text-2xl font-bold  bg-clip-text text-transparent bg-gradient-to-r from-blackColor  to-secondBlackColor'>{t('hero_title')}</motion.h3>
+                 className='text-white text-4xl max-lg:text-5xl max-md:text-3xl max-sm:text-5xl font-bold  bg-clip-text text-transparent bg-gradient-to-r from-blackColor  to-secondBlackColor'>{t('hero_title')}</motion.h3>
                 <motion.p
                 initial = {{
                     x : -0,
@@ -35,7 +35,7 @@ export const Hero = () => {
                     opacity : 1,
                     transition : {delay : 0.2, duration: 1}
                 }}
-                 className='text-white text-xl max-lg:text-xl max-md:text-lg max-sm:text-sm font-medium'>{t('hero_desc')}</motion.p>
+                 className='text-white text-xl max-lg:text-xl max-md:text-lg max-sm:text-xl font-medium'>{t('hero_desc')}</motion.p>
                 <motion.a
                 initial = {{
                     x : -0,
@@ -49,7 +49,7 @@ export const Hero = () => {
                     transition : {delay : 0.3, duration: 1}
                 }}
                  href="#contact" className='px-6 py-3 flex flex-row align-center justify-center items-center gap-2 text-white w-fit hover:bg-white hover:text-main border border-white rounded-lg'>
-                    <span className='text-md'>{t('hero_button')}</span>
+                    <span className='text-xl'>{t('hero_button')}</span>
                 </motion.a>
             </div>
         </section>

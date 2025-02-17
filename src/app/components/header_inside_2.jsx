@@ -4,7 +4,6 @@ import React from 'react'
 import DropDown from './dropdown'
 import '../../../i18n';
 import { useTranslation } from "react-i18next";
-import DropDownLang from './dropdown_lang';
 import Link from 'next/link';
 import DropDownLangInside2 from './dropdown_lang_inside_2';
 import DropDownInside2 from './dropdown_inside_2';

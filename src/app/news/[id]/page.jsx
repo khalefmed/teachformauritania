@@ -7,7 +7,6 @@ import dynamic from "next/dynamic";
 import { HeaderInside2 } from "@/app/components/header_inside_2";
 import { FooterInside2 } from "@/app/components/footer_inside_2";
 
-// Import NewsDetails as a dynamic server component (important!)
 const NewsDetails = dynamic(() => import("@/app/components/news_details"), { ssr: true });
 
 export default function NewsDetailsPage() {
@@ -29,12 +28,12 @@ export default function NewsDetailsPage() {
 
   return (
     <main
-      className="bg-white w-screen overflow-x-hidden"
+      className="bg-white w-screen overflow-x-hidden min-h-[100vh]"
       dir={langDir[language] || 'ltr'}
     >
-      <HeaderInside2 />
-      {id && <NewsDetails id={id} />} {/* Pass `id` as a prop */}
-      <FooterInside2 />
+      {id && <HeaderInside2 />}
+      {id &&  <NewsDetails id={id} />} 
+      {id && <FooterInside2 />}
     </main>
   );
 }

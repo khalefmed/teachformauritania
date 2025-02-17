@@ -281,7 +281,7 @@ export const ApplyPage = () => {
                     </div>
                     <p>{t('apply_p_2')}</p>
                     <div>
-                        <div className="flex flex-row gap-4">
+                        <div className="flex flex-row flex-wrap gap-4">
                             {[
                                 { id: "facebook", label: t("Facebook") },
                                 { id: "instagram", label: t("Instagram") },
@@ -384,7 +384,7 @@ export const ApplyPage = () => {
                 {/* Language Levels Section */}
                 <div className='flex flex-col gap-2 mt-8'>
                     <h4 className='font-semibold text-md'>{t('niveau_francais')}</h4>
-                    <div className="flex flex-row gap-4">
+                    <div className="flex flex-row flex-wrap gap-4">
                         {[
                             { id: "nu", label: t("Null") },
                             { id: "de_base", label: t("De Base") },
@@ -405,7 +405,7 @@ export const ApplyPage = () => {
                         ))}
                     </div>
                     <h4 className='font-semibold text-md'>{t('niveau_arabe')}</h4>
-                    <div className="flex flex-row gap-4">
+                    <div className="flex flex-row flex-wrap gap-4">
                         {[
                             { id: "nu", label: t("Null") },
                             { id: "de_base", label: t("De Base") },
@@ -426,7 +426,7 @@ export const ApplyPage = () => {
                         ))}
                     </div>
                     <h4 className='font-semibold text-md'>{t('niveau_anglais')}</h4>
-                    <div className="flex flex-row gap-4">
+                    <div className="flex flex-row  flex-wrap gap-4">
                         {[
                             { id: "nu", label: t("Null") },
                             { id: "de_base", label: t("De Base") },
@@ -447,12 +447,13 @@ export const ApplyPage = () => {
                         ))}
                     </div>
                 </div>
+                <br />
 
                 {/* Additional Information Section */}
                 <div className='flex flex-col gap-2 mt-8'>
                     <h3 className='font-semibold text-lg mb-2'>{t('additional_info')}</h3>
                     <div className='w-full flex flex-col gap-2'>
-                        <h4 className='font-semibold text-md'>{t('ready_to_move')}</h4>
+                        <h4 className='font-medium text-md'>{t('ready_to_move')}</h4>
                         <div className="flex flex-row gap-4">
                             <label className="flex items-center gap-2">
                                 <input
@@ -479,7 +480,7 @@ export const ApplyPage = () => {
                         </div>
                     </div>
                     <div className='w-full flex flex-col gap-2'>
-                        <h4 className='font-semibold text-md'>{t('reason_to_join')}</h4>
+                        <h4 className='font-medium text-md'>{t('reason_to_join')}</h4>
                         <select
                             name='reason_to_join'
                             value={reasonToJoin}
@@ -498,14 +499,14 @@ export const ApplyPage = () => {
                         </select>
                     </div>
                     <div className='w-full flex flex-col gap-2'>
-                        <h4 className='font-semibold text-md'>{t('opportunity_vision')}</h4>
+                        <h4 className='font-medium text-md'>{t('opportunity_vision')}</h4>
                         <textarea
                             name='opportunity_vision'
                             placeholder={t('opportunity_vision_placeholder')}
                             value={opportunityVision}
                             onChange={(e) => setOpportunityVision(e.target.value)}
                             className={getInputClassName("opportunityVision")}
-                            rows={4}
+                            rows={10}
                         />
                     </div>
                 </div>

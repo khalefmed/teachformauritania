@@ -190,6 +190,8 @@
     "opportunity_vision_placeholder": "Describe how you plan to take advantage of this opportunity...",
     "additional_info": "Additional Information",
     "apply_button": "Apply to the Program",
-    "apply_now_button" : "Submit my application"
+    "apply_now_button" : "Submit my application",
+
+    "all_news" : "All news"
 
 }

@@ -201,7 +201,9 @@
       
 
     "apply_button" : "Postuler au programme",
-    "apply_now_button" : "Soumettre ma candidature"
+    "apply_now_button" : "Soumettre ma candidature",
+
+    "all_news" : "Toutes les actualités"
 
 
 }

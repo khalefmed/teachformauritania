@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import client from '../sanityClient';
-import { urlFor } from '../sanityImage';
+import client from '@/app/sanityClient';
+import { urlFor } from '@/app/sanityImage';
 
 export default async function NewsDetails({ id }) {
     const {t, i18n} = useTranslation();
@@ -14,7 +14,7 @@ export default async function NewsDetails({ id }) {
     if (!news) return <p>News not found.</p>;
 
     return (
-        <div className="max-w-3xl mx-auto p-6">
+        <div className="max-w-3xl mx-auto p-6 min-h-[100vh]">
             <h1 className="text-3xl font-bold mb-4">
                 {news[`news_headline_${i18n.language}`]}
             </h1>

@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://teachformauritania.org" />
       </head>
-      <body className={font.className + "w-screen font-poppins"}>{children}</body>
+      <body className={font.className + " w-screen font-poppins"}>{children}</body>
     </html>
   );
 }

@@ -16,7 +16,7 @@ export default function DropDown() {
     <div className=" z-0 text-right md:hidden ">
       <Menu >
         <MenuButton className="inline-flex items-center gap-2 rounded-md bg-transparent py-1.5 px-3 text-sm/6 font-semibold text-white  focus:outline-none   data-[focus]:outline-1 ">
-          <img src="../images/menu.png"  width={25} alt="" />
+          <img src="images/menu.png"  width={25} alt="" />
         </MenuButton>
 
         <MenuItems

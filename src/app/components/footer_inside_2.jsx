@@ -20,7 +20,7 @@ export const FooterInside2 = () => {
                         <p className='text-sm'>+222 34450717</p>
                     </div>
                     <div className='flex flex-row items-center gap-2 text-fieldText'>
-                        <img src="../../images/location_icon.png" width={20} alt="" />
+                        <img src="../images/location_icon.png" width={20} alt="" />
                         <p className='text-sm'>ZR 120, Nouakchott, Mauritanie</p>
                     </div>
                 </div>

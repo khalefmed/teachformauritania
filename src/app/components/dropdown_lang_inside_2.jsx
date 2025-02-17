@@ -26,9 +26,9 @@ export default function DropDownLangInside2() {
 
 
   const flags = {
-    "en" : "../images/british_flag.webp",
-    "fr" : "../images/france_flag.webp",
-    "ar" : "../images/saudi_flag.webp",
+    "en" : "@images/british_flag.webp",
+    "fr" : "@images/france_flag.webp",
+    "ar" : "@images/saudi_flag.webp",
   }
   return (
     <div className=" text-right ">
