@@ -79,6 +79,7 @@ export const Program = () => {
                                         <p className='text-md font-medium text-fieldText'>{item.date}</p>
                                     </div>
                                     <p className='text-md font-medium text-blackColor'>{item.description}</p>
+                                    <a href={`/program/${index + 1}`} className='text-main font-medium'>{t('see_more')} </a>
                                 </div>
                                 
                             </motion.div>
