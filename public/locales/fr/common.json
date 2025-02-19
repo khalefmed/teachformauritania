@@ -211,7 +211,14 @@
     "program_script_6" : "Un suivi et un développement continus sont mis en place pour assurer la réussite de tous les participants tout au long de leurs deux années dans les écoles et les communautés où ils sont affectés, et évaluer les résultats d'apprentissage des classes.Les participants bénéficient du soutien constant d'une équipe de coordinateurs pédagogiques et administratifs, ainsi que de formations régulières dispensées par l'équipe du programme. Ces formations sont conçues pour répondre à leurs besoins en matière de valeurs, de connaissances, de compétences et d'expériences nécessaires à la promotion de l'équité en éducation et à la mise en place d'un changement positif à tous les niveaux du système éducatif. ",
 
     "see_more" : "Voir plus",
-    
+
+    "previous" : "Précedent",
+    "next" : "Suivant",
+    "submiting" : "En cours ...",
+    "apply_success_tile" : "Candidature soumise",
+    "apply_success_desc" : "Votre candidature a été soumise avec succès, notre équipe vous contactera dans les prochains jours",
+    "back_to_home" : "Retour à l'acceuil",
+
     "all_news" : "Toutes les actualités"
 
 
