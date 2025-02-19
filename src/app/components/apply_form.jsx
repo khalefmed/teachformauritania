@@ -168,6 +168,14 @@ const EducationAndTraining = ({ formData, setFormData, errors, t }) => {
     }`;
   };
 
+  const handleCvChange = (e) => {
+    setFormData({ ...formData, cv: e.target.files[0] });
+  };
+
+  const handleDiplomeChange = (e) => {
+    setFormData({ ...formData, diplome: e.target.files[0] });
+  };
+
   return (
     <div className="flex flex-col gap-2">
       <h3 className="font-semibold text-lg mb-2">{t('formation_education')}</h3>
@@ -238,24 +246,27 @@ const EducationAndTraining = ({ formData, setFormData, errors, t }) => {
         />
       </div>
       <div className="w-full flex flex-row gap-4">
-        <input
-          type="file"
-          name="cv"
-          accept=".pdf,.doc,.docx"
-          onChange={(e) =>
-            setFormData({ ...formData, cv: e.target.files[0] })
-          }
-          className={getInputClassName('cv')}
-        />
-        <input
-          type="file"
-          name="diplome"
-          accept=".pdf"
-          onChange={(e) =>
-            setFormData({ ...formData, diplome: e.target.files[0] })
-          }
-          className={getInputClassName('diplome')}
-        />
+        <label className="custom-file-upload">
+          {formData.cv ? formData.cv.name : t('Upload CV')}
+          <input
+            type="file"
+            name="cv"
+            accept=".pdf,.doc,.docx"
+            onChange={handleCvChange}
+            className="actual-file-input text-start"
+          />
+        </label>
+
+        <label className="custom-file-upload">
+          {formData.diplome ? formData.diplome.name : t('Upload Diplome')}
+          <input
+            type="file"
+            name="diplome"
+            accept=".pdf"
+            onChange={handleDiplomeChange}
+            className="actual-file-input"
+          />
+        </label>
       </div>
     </div>
   );

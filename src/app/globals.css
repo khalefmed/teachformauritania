@@ -16,6 +16,15 @@
   box-sizing: border-box;
 }
 
+.custom-file-upload {
+  @apply bg-fieldColor w-full px-4 py-3 text-sm placeholder-fieldText outline-none rounded-md flex items-start justify-start cursor-pointer;
+}
+
+.actual-file-input {
+  display: none;
+}
+
+
 html {
   scroll-behavior: smooth;
   padding : 0 !important;
