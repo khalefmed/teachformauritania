@@ -93,39 +93,16 @@
 
 
     "fellowship" : "fellowship",
-    "fellowship_p_1": "This program is aimed at motivated graduates and professionals from diverse academic backgrounds. The eligibility criteria are as follows:",
-
-    "fellowship_li_1": "Be Mauritanian and aged between 19 and 45 at the time of application.",
-    "fellowship_li_2": "Hold a university degree with a minimum of a bachelor's level.",
-    "fellowship_li_3": "Must have at least 5 O'Level credits in mathematics and English.",
 
     "fellowship_p_2": "Our selection model is designed to identify graduates and young professionals who have the potential to become transformative leaders in the classroom, school, and community.",
     "fellowship_p_3": "We are looking for candidates who demonstrate the following characteristics:",
 
-    "fellowship_li_4": "Believe in the potential of all children",
-    "fellowship_li_5": "Believe in equitable and quality education for all children",
-    "fellowship_li_6": "Have strong academic, personal, and/or professional achievements",
-    "fellowship_li_7": "Demonstrate leadership potential in various contexts",
-    "fellowship_li_8": "Perseverance in the face of challenges",
-    "fellowship_li_9": "Ability to adapt to changing environments",
-    "fellowship_li_10": "Excellent interpersonal skills and ability to motivate others",
-    "fellowship_li_11": "Respect and empathy for individuals' diverse experiences",
-    "fellowship_li_12": "Professional etiquette and good time management",
-    "fellowship_li_13": "Long-term commitment to achieving goals",
-    "fellowship_li_14": "A growth-oriented mindset",
 
     "engagement": "Commitment",
 
     "fellowship_engagement_li_1": "I am able to participate in the 8-week Summer Institute.",
     "fellowship_engagement_li_2": "I am willing to commit to two years as a full-time teacher in a public school in Mauritania, in accordance with the academic calendar of the Ministry of National Education and Reform.",
     "fellowship_engagement_li_3": "I am able to attend all required training and development activities during the Leadership Journey in accordance with the academic calendar of the Ministry of National Education and Reform.",
-
-    "fellowship_p_4": "At Teach For Mauritania, we strive to provide alternative solutions to the challenges faced by Mauritanian children, offering individuals with no prior teaching experience a unique opportunity to serve society.",
-    "fellowship_p_5": "To be admitted, candidates must successfully complete the following steps:",
-    "fellowship_p_6": "Fill out the application form",
-    "fellowship_p_7": "Participate in individual interviews",
-
-
 
     "program_title_1": "Recruitment, Selection, and Integration",
     "program_date_1": "April 2025 - June 2025",
@@ -228,6 +205,37 @@
 
 
     "back_to_home": "Back to Home",
+
+
+
+
+    "fellowship_p_1": "This program is aimed at motivated graduates and professionals from diverse academic backgrounds.",
+    "fellowship_li_1": "Be Mauritanian",
+    "fellowship_li_2": "Be between 19 and 40 years old at the time of application.",
+    "fellowship_li_3": "Hold a high school diploma with a minimum overall average of 11 or a bachelor's degree with a minimum overall average of 12.",
+    "fellowship_li_4": "Be bilingual (proficient in both Arabic and French) or fluent in one of these two languages.",
+    "fellowship_li_5": "Believe in equal opportunities and quality education for all.",
+    "fellowship_li_6": "Have strong adaptability and are ready to take on challenges.",
+    "fellowship_li_7": "Demonstrate natural leadership and the ability to mobilize others.",
+    "fellowship_li_8": "Possess excellent interpersonal skills.",
+    "fellowship_li_9": "Are able to work in a team and solve problems.",
+    "fellowship_li_10": "Are passionate about education and knowledge sharing.",
+    "fellowship_li_11": "Have a growth mindset.",
+    "fellowship_li_12": "Are committed to making a real difference in communities by valuing diversity and inclusion.",
+    "fellowship_title_1": "Eligibility Criteria",
+    "fellowship_title_2": "Required Documents",
+    "fellowship_document_1": "A Curriculum Vitae (CV)",
+    "fellowship_document_2": "A transcript certified by the examination board",
+    "fellowship_document_3": "Copies of diplomas and certificates",
+    "fellowship_p_4": "At Teach For Mauritania, we strive to provide alternative solutions to the challenges faced by Mauritanian children, offering individuals with no prior teaching experience a unique opportunity to serve society.",
+    "fellowship_p_5": "To be admitted, candidates must successfully complete the following steps:",
+    "fellowship_p_6": "Fill out the application form",
+    "fellowship_p_7": "Participate in individual interviews",
+    "fellowship_p_8": "Participate in assessment and situational workshops",
+    "fellowship_p_9": "Participate in a final interview",
+    "fellowship_p_10": "Are you ready to take on the challenge and contribute to a better future for Mauritanian children?",
+    "fellowship_p_11": "Apply now!",
+    
     
     
 

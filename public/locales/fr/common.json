@@ -95,38 +95,18 @@
 
     "fellowship" : "Candidature",
 
-    "fellowship_p_1" : "Ce programme s'adresse à des diplômés motivés et à des professionnels issus de divers milieux académiques. Les critères d'éligibilité sont les suivants :",
-    
-    "fellowship_li_1" : "Être Mauritanien et avoir entre 19 et 45 ans au moment de la candidature. ",
-    "fellowship_li_2" : "Être titulaire d'un diplôme universitaire avec un minimum de niveau licence.",
-    "fellowship_li_3" : "Doit avoir au moins 5 crédits de O'Level en mathématiques et en anglais.",
 
     "fellowship_p_2" : "Notre modèle de sélection est conçu pour identifier les diplômés et les jeunes professionnels qui ont le potentiel pour devenir des leaders transformateurs dans la salle de classe, l'école et la communauté.",
     "fellowship_p_3" : "Nous recherchons des candidats qui présentent les caractéristiques suivantes:",
     
-    "fellowship_li_4": "Croire au potentiel de tous les enfants",
-    "fellowship_li_5": "Croire en une éducation équitable et de qualité pour tous les enfants",
-    "fellowship_li_6": "Avoir de bons résultats scolaires, personnels et/ou professionnels",
-    "fellowship_li_7": "Démontrer un potentiel de leadership dans divers contextes",
-    "fellowship_li_8": "Persévérance face aux défis",
-    "fellowship_li_9": "Capacité à s'adapter à des environnements changeants",
-    "fellowship_li_10": "Excellentes compétences interpersonnelles et capacité à motiver les autres",
-    "fellowship_li_11": "Respect et empathie pour les différentes expériences des individus",
-    "fellowship_li_12": "Étiquette professionnelle et bonne gestion du temps",
-    "fellowship_li_13": "Engagement à long terme pour atteindre les objectifs",
-    "fellowship_li_14": "Un état d'esprit axé sur la croissance",
-    
+
     "engagement" : "Engagement",
     
     
     "fellowship_engagement_li_1": "Je suis en mesure de participer à l'Institut d'été de 8 semaines.",
     "fellowship_engagement_li_2": "Je suis prêt(e) à m'engager à passer deux ans en tant qu'enseignant(e) à temps plein dans une école publique en Mauritanie, conformément au calendrier académique du Ministère de l'Éducation Nationale et de la Réforme.",
     "fellowship_engagement_li_3": "Je suis en mesure d'assister à toutes les activités de formation et de développement requises pendant le Leadership Journey conformément au calendrier académique du Ministère de l'Éducation Nationale et de la Réforme.",
-    
-    "fellowship_p_4" : "A Teach For Mauritania, nous nous efforçons d'apporter des solutions alternatives aux défis auxquels sont confrontés les enfants mauritaniens, en offrant aux personnes qui n'ont pas d'expérience préalable dans l'enseignement une occasion unique de rendre service à la société.",
-    "fellowship_p_5" : "Pour être admis, les candidats doivent réussir les étapes suivantes :",
-    "fellowship_p_6" : "Remplir le formulaire de candidature",
-    "fellowship_p_7" : "Participer à des entretiens individuels",
+
 
     "program_title_1" : "Récrutement, sélection et intégration",
     "program_date_1" : "Avril 2025 - Juin 2025",
@@ -228,6 +208,42 @@
     "apply_success_tile" : "Candidature soumise",
     "apply_success_desc" : "Votre candidature a été soumise avec succès, notre équipe vous contactera dans les prochains jours",
     "back_to_home" : "Retour à l'acceuil",
+
+
+
+    "fellowship_p_1" : "Ce programme s'adresse à des diplômés motivés et à des professionnels issus de divers milieux académiques. ",
+
+    "fellowship_li_1" : "Être Mauritanien",
+    "fellowship_li_2" : "Avoir entre 19 et 40 ans au moment de la candidature.",
+    "fellowship_li_3" : "Être titulaire d'un diplôme bac avec une moyenne générale minimum de 11 et ou de licence avec une moyenne générale minimum de 12.",
+    "fellowship_li_4" : "Être bilingue (maitriser à la fois l’arabe et le français) ou parler couramment l’une de ces deux langues.",
+
+    "fellowship_li_5" : "Croient en l'égalité des chances et en une éducation de qualité pour tous.",
+    "fellowship_li_6" : "Ont une forte capacite d’adaptation et sont prêts à relever des défis.",
+    "fellowship_li_7" : "Démontrent un leadership naturel et la capacite à mobiliser les autres.",
+    "fellowship_li_8" : "Possèdent d’excellentes compétences interpersonnelles.",
+    "fellowship_li_9" : "Sont capables de travailler en équipe et de résoudre des problèmes.",
+    "fellowship_li_10" : "Sont passionnées par l’éducation et la transmission du savoir.",
+    "fellowship_li_11" : "Ont un état d’esprit axé sur la croissance.",
+    "fellowship_li_12" : "S’engagent à faire une réelle différence dans les communautés en valorisant la diversité et l’inclusion.",
+
+
+    "fellowship_title_1" : "Critères d’éligibilité",
+    "fellowship_title_2" : "Documents requis",
+
+    "fellowship_document_1" : "Un Curriculum vitae (CV)",
+    "fellowship_document_2" : "Un relevé de notes certifié par la direction des examens",
+    "fellowship_document_3" : "Copie diplômes et certificats",
+
+    "fellowship_p_4" : "A Teach For Mauritania, nous nous efforçons d'apporter des solutions alternatives aux défis auxquels sont confrontés les enfants mauritaniens, en offrant aux personnes qui n'ont pas d'expérience préalable dans l'enseignement une occasion unique de rendre service à la société.",
+    "fellowship_p_5" : "Pour être admis, les candidats doivent réussir les étapes suivantes : ",
+    "fellowship_p_6" : "Remplir le formulaire de candidature",
+    "fellowship_p_7" : "Participer à des entretiens individuels",
+    "fellowship_p_8" : "Participer à des ateliers d’évaluation et de mise en situation",
+    "fellowship_p_9" : "Participer à un entretien final",
+
+    "fellowship_p_10" : "Vous êtes prêts (e) à relever le défi et à contribuer à un avenir meilleur pour les enfants mauritaniens ?",
+    "fellowship_p_11" : "Postulez des maintenant !",
 
     "all_news" : "Toutes les actualités"
 

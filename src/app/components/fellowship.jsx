@@ -18,20 +18,44 @@ export const Fellowship = () => {
             <hr className='w-40 text-center border-black border-[1.75px] rounded-full' />
             </div>
             <div className='text-blackColor'>
+                {/* Update this :  */}
                 <p>{t('fellowship_p_1')}</p>
                 <br />
+
+                {/* Add title : Critere d'eligibilité  */}
+                <h4 className='font-semibold h-8'>{t('fellowship_title_1')}</h4>
+
+                {/* Add p : Pour postuler, vous devez remplir les conditions suivantes : */}
+
                 <ul>
+                    {/* Update this  */}
                     <li><span className='text-second'>🗸</span>  {t('fellowship_li_1')}</li>
                     <li><span className='text-second'>🗸</span>  {t('fellowship_li_2')}</li>
-                    {/* <li><span className='text-second'>🗸</span>  {t('fellowship_li_3')}</li> */}
+                    <li><span className='text-second'>🗸</span>  {t('fellowship_li_3')}</li>
+                    <li><span className='text-second'>🗸</span>  {t('fellowship_li_4')}</li>
+                </ul>
+                <br />
+                <br />
+                {/* Docuement requis  */}
+                <h4 className='font-semibold h-8'>{t('fellowship_title_2')}</h4>
+
+
+                <ul>
+                    <li><span className='text-second'>🗸</span>  {t('fellowship_document_1')}</li>
+                    <li><span className='text-second'>🗸</span>  {t('fellowship_document_2')}</li>
+                    <li><span className='text-second'>🗸</span>  {t('fellowship_document_3')}</li>
                 </ul>
 
+
                 <br />
+
+                {/* Update this :  */}
+
                 <p>{t('fellowship_p_2')}</p>
                 <br />
-                <p>{t('fellowship_p_3')}</p>
                 <ul>
-                    <li>- {t('fellowship_li_4')}</li>
+
+                    {/* Update this  */}
                     <li>- {t('fellowship_li_5')}</li>
                     <li>- {t('fellowship_li_6')}</li>
                     <li>- {t('fellowship_li_7')}</li>
@@ -40,14 +64,14 @@ export const Fellowship = () => {
                     <li>- {t('fellowship_li_10')}</li>
                     <li>- {t('fellowship_li_11')}</li>
                     <li>- {t('fellowship_li_12')}</li>
-                    <li>- {t('fellowship_li_13')}</li>
-                    <li>- {t('fellowship_li_14')}</li>
                 </ul>
 
                 <br />
                 <br />
 
                 <h4 className='font-semibold h-8'>{t('engagement')}</h4>
+                <p>{t('fellowship_p_3')}</p>
+                <br />
                 <ul>
                     <li><span className='text-second'>🗸</span> {t('fellowship_engagement_li_1')} </li>
                     <li><span className='text-second'>🗸</span> {t('fellowship_engagement_li_2')} </li>
@@ -55,11 +79,24 @@ export const Fellowship = () => {
                 </ul>
                 <br />
 
+                
                 <p>{t('fellowship_p_4')}</p>
                 <br />
+
+                {/* Add a p : En rejoignant Teach for Mauritania, vous vous engagez à : */}
                 <p>{t('fellowship_p_5')}</p>
+                <br />
                 <p>- {t('fellowship_p_6')}</p>
                 <p>- {t('fellowship_p_7')}</p>
+                <p>- {t('fellowship_p_8')}</p>
+                <p>- {t('fellowship_p_9')}</p>
+
+                <br />
+                {/* Vous êtes prêts (e) à relever le défi et à contribuer à un avenir meilleur pour les enfants mauritaniens ? */}
+                <p>{t('fellowship_p_10')}</p>
+                {/* Postulez des maintenant ! */}
+                <p>{t('fellowship_p_11')}</p>
+
 
             </div>
             <div className='w-full flex items-center justify-center'>

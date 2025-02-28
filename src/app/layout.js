@@ -1,16 +1,17 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Head from 'next/head'; // Import the Head component
 
 const font = Poppins({
-  weight: [  
-   '100',
-   '200', 
-   '300', 
-   '400', 
-   '500', 
-   '700', 
-   '800', 
-   '900'
+  weight: [
+    '100',
+    '200',
+    '300',
+    '400',
+    '500',
+    '700',
+    '800',
+    '900'
   ],
   subsets: ['latin'],
   display: 'swap',
@@ -25,8 +26,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/public/logo.png" />
+      <Head> {/* Use the Head component here */}
+        <link rel="icon" href="/logo.png" /> {/* Corrected href */}
         <meta property="og:title" content="Teach For Mauritania - Empowering Education" />
         <meta
           property="og:description"
@@ -36,7 +37,7 @@ export default function RootLayout({ children }) {
         <meta property="og:url" content="https://teachformauritania.org" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://teachformauritania.org" />
-      </head>
+      </Head>
       <body className={font.className + " w-screen font-poppins"}>{children}</body>
     </html>
   );
