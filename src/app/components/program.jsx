@@ -38,12 +38,12 @@ export const Program = () => {
             "date" : t('program_date_5'),
             "description" : t('program_desc_5')
         },
-        {
-            "image" : "images/program_6.jpg",
-            "title" : t('program_title_6'),
-            "date" : t('program_date_6'),
-            "description" : t('program_desc_6')
-        },
+        // {
+        //     "image" : "images/program_6.jpg",
+        //     "title" : t('program_title_6'),
+        //     "date" : t('program_date_6'),
+        //     "description" : t('program_desc_6')
+        // },
     ]
 
 

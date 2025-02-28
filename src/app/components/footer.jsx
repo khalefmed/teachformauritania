@@ -11,15 +11,15 @@ export const Footer = () => {
             <div className='flex flex-col gap-8'>
                 <img src="images/logo_white.png" height={10} width={150} alt="" />
                 <div className='flex flex-col justify-start gap-3'>
-                    <div className='flex flex-row items-center gap-2 text-fieldText'>
+                    <div className='flex flex-row items-center gap-2 text-white'>
                         <img src="/images/email_icon.png" width={20} alt="" />
                         <p className='text-sm'>contact@teachformauritania.com</p>
                     </div>
-                    <div className='flex flex-row items-center gap-2 text-fieldText'>
+                    <div className='flex flex-row items-center gap-2 text-white'>
                         <img src="images/phone_icon.png" width={20} alt="" />
                         <p className='text-sm'>+222 34450717</p>
                     </div>
-                    <div className='flex flex-row items-center gap-2 text-fieldText'>
+                    <div className='flex flex-row items-center gap-2 text-white'>
                         <img src="images/location_icon.png" width={20} alt="" />
                         <p className='text-sm'>ZR 120, Nouakchott, Mauritanie</p>
                     </div>
@@ -29,7 +29,7 @@ export const Footer = () => {
 
             <div className='flex flex-col gap-3'>
                 <h3 className='text-2xl font-semibold text-white'>{t('links')}</h3>
-                <ul className=' text-sm flex flex-col gap-2 text-fieldText'>
+                <ul className=' text-sm flex flex-col gap-2 text-white'>
                     <li><a href="#hero">{t('home')}</a></li>
                     <li><a href="#about">{t('about')}</a></li>
                     <li><a href="#program">{t('program')}</a></li>

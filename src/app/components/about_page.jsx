@@ -32,8 +32,8 @@ export const AboutPageComponent = () => {
                     opacity : 1,
                     transition : {duration : 1}
                 }}
-                className={'w-full max-lg:w-full text-blackColor font-medium text-md  leading-[30px]  px-4 h-fit '}>
-                {t('about_page_content')}
+                className={'w-full max-lg:w-full text-blackColor font-medium text-md  leading-[30px]  px-4 h-fit text-justify '} dangerouslySetInnerHTML={{ __html: t('about_page_content') }}>
+                
                 </motion.div>
 
             </div>

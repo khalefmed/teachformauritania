@@ -15,11 +15,11 @@ export const Goal = () => {
                 </h1>
                 <hr className="w-40 text-center border-black border-[1.75px] rounded-full" />
             </div>
-            <div className="flex flex-row max-md:flex-col flex-wrap items-center max-sm:items-center justify-center">
+            <div className="flex flex-row max-md:flex-col flex-wrap items-start max-sm:items-center justify-center">
                 <StatBox number={1000} suffix="+" label={t("goal_1")} />
                 <StatBox number={85} suffix="%" label={t("goal_2")} />
                 <StatBox number={30} suffix="+" label={t("goal_3")} />
-                <StatBox number={3} suffix=" ans" label={t("goal_4")} />
+                <StatBox number={3} suffix={" "+t('years')} label={t("goal_4")} />
             </div>
         </section>
     );
