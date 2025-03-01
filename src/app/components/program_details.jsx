@@ -13,8 +13,7 @@ export default function ProgramDetails({ title, image, date, script}) {
                 {title}
             </h1>
             <p className="text-gray-500">{date}</p>
-            <p className="mt-6 text-lg">
-            {script}
+            <p className="mt-6 text-lg"  dangerouslySetInnerHTML={{ __html: script }}>
             </p>
             <br />
             <br />

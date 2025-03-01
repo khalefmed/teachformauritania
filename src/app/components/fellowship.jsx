@@ -29,10 +29,10 @@ export const Fellowship = () => {
 
                 <ul>
                     {/* Update this  */}
-                    <li><span className='text-second'>🗸</span>  {t('fellowship_li_1')}</li>
-                    <li><span className='text-second'>🗸</span>  {t('fellowship_li_2')}</li>
-                    <li><span className='text-second'>🗸</span>  {t('fellowship_li_3')}</li>
-                    <li><span className='text-second'>🗸</span>  {t('fellowship_li_4')}</li>
+                    <li><span className='text-second'>✔</span>  {t('fellowship_li_1')}</li>
+                    <li><span className='text-second'>✔</span>  {t('fellowship_li_2')}</li>
+                    <li><span className='text-second'>✔</span>  {t('fellowship_li_3')}</li>
+                    <li><span className='text-second'>✔</span>  {t('fellowship_li_4')}</li>
                 </ul>
                 <br />
                 <br />
@@ -41,9 +41,9 @@ export const Fellowship = () => {
 
 
                 <ul>
-                    <li><span className='text-second'>🗸</span>  {t('fellowship_document_1')}</li>
-                    <li><span className='text-second'>🗸</span>  {t('fellowship_document_2')}</li>
-                    <li><span className='text-second'>🗸</span>  {t('fellowship_document_3')}</li>
+                    <li><span className='text-second'>✔</span>  {t('fellowship_document_1')}</li>
+                    <li><span className='text-second'>✔</span>  {t('fellowship_document_2')}</li>
+                    <li><span className='text-second'>✔</span>  {t('fellowship_document_3')}</li>
                 </ul>
 
 
@@ -73,9 +73,9 @@ export const Fellowship = () => {
                 <p>{t('fellowship_p_3')}</p>
                 <br />
                 <ul>
-                    <li><span className='text-second'>🗸</span> {t('fellowship_engagement_li_1')} </li>
-                    <li><span className='text-second'>🗸</span> {t('fellowship_engagement_li_2')} </li>
-                    <li><span className='text-second'>🗸</span> {t('fellowship_engagement_li_3')} </li>
+                    <li><span className='text-second'>✔</span> {t('fellowship_engagement_li_1')} </li>
+                    <li><span className='text-second'>✔</span> {t('fellowship_engagement_li_2')} </li>
+                    <li><span className='text-second'>✔</span> {t('fellowship_engagement_li_3')} </li>
                 </ul>
                 <br />
 
