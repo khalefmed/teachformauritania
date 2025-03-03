@@ -245,26 +245,26 @@ const EducationAndTraining = ({ formData, setFormData, errors, t }) => {
           className={getInputClassName('endDate')}
         />
       </div>
-      <div className="w-full flex flex-row gap-4">
-        <label className="custom-file-upload">
+      <div className="w-full flex flex-row gap-4 ">
+        <label className={`custom-file-upload ${errors['cv'] ? " border-red-600 border-2" : ""}`}>
           {formData.cv ? formData.cv.name : t('Upload CV')}
           <input
             type="file"
             name="cv"
             accept=".pdf,.doc,.docx"
             onChange={handleCvChange}
-            className="actual-file-input text-start"
+            className={`actual-file-input text-start`}
           />
         </label>
 
-        <label className="custom-file-upload">
+        <label className={`custom-file-upload ${errors['diplome'] ? " border-red-600 border-2" : ""}`}>
           {formData.diplome ? formData.diplome.name : t('Upload Diplome')}
           <input
             type="file"
             name="diplome"
             accept=".pdf"
             onChange={handleDiplomeChange}
-            className="actual-file-input"
+            className={"actual-file-input text-start "}
           />
         </label>
       </div>

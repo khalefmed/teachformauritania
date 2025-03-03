@@ -76,7 +76,7 @@ export const Program = () => {
                                 <div className='w-full flex flex-col items-start justify-center gap-6 '>
                                     <div className='flex flex-col gap-0'>
                                         <h3 className='text-lg font-semibold text-blackColor'>{item.title}</h3>
-                                        <p className='text-md font-medium text-fieldText'>{item.date}</p>
+                                        {/* <p className='text-md font-medium text-fieldText'>{item.date}</p> */}
                                     </div>
                                     <p className='text-md font-medium text-blackColor'>{item.description}</p>
                                     <a href={`/program/${index + 1}`} className='text-main font-medium'>{t('see_more')} </a>

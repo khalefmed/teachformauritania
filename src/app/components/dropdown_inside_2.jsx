@@ -43,10 +43,16 @@ export default function DropDownInside2() {
             <Link href="/#program">{t('program')}</Link>
             </button>
           </MenuItem>
-          <MenuItem>
+          {/* <MenuItem>
             <button className="group flex w-full items-center gap-2 text-blackColor font-semibold rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
              
             <Link href="/#activities">{t('activities')}</Link>
+            </button>
+          </MenuItem> */}
+          <MenuItem>
+            <button className="group flex w-full items-center gap-2 text-blackColor font-semibold rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+             
+            <Link href="/#goal">{t('goal')}</Link>
             </button>
           </MenuItem>
           <MenuItem>

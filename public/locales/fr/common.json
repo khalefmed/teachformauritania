@@ -120,7 +120,7 @@
     "program_date_3" : "Fin Septembre 2025",
     "program_desc_3" : "Après avoir terminé avec succès votre formation au Summer Institute, les enseignants sont ensuite déployés dans les écoles qui leur sont assignées en fonction des postes vacants, pour enseigner dans le primaire pour un programme d'enseignement rémunéré de 2 ans. Ils participeront également à des formations tout au long de leurs deux années d'enseignement.",
     
-    "program_title_4" : "Enseignement et formation",
+    "program_title_4" : "Suivi et soutien",
     "program_date_4" : "Octobre 2025 - Juillet 2026",
     "program_desc_4" : "Soutien continu au développement, mentorat et accès à l'apprentissage ainsi qu'aux opportunités professionnelles Teach For Mauritania accompagnera les participants tout au long de leur parcours en leur offrant un soutien en fonction de leurs besoins. ",
     
@@ -244,6 +244,8 @@
 
     "fellowship_p_10" : "Vous êtes prêts (e) à relever le défi et à contribuer à un avenir meilleur pour les enfants mauritaniens ?",
     "fellowship_p_11" : "Postulez des maintenant !",
+
+    "apply_disabled" : "La candidature n'est pas encore ouverte. Revenez bientôt pour postuler !",
 
     "all_news" : "Toutes les actualités"
 

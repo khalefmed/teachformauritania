@@ -17,7 +17,8 @@ export const Header = () => {
                     <li className="font-medium text-sm cursor-pointer"><Link href="/">{t('home')}</Link></li>
                     <li className="font-medium text-sm cursor-pointer"><Link href="#about">{t('about')}</Link></li>
                     <li className="font-medium text-sm cursor-pointer"><Link href="#program">{t('program')}</Link></li>
-                    <li className="font-medium text-sm cursor-pointer"><Link href="#activities">{t('activities')}</Link></li>
+                    {/* <li className="font-medium text-sm cursor-pointer"><Link href="#activities">{t('activities')}</Link></li> */}
+                    <li className="font-medium text-sm cursor-pointer"><Link href="#goal">{t('goal')}</Link></li>
                     <li className="font-medium text-sm cursor-pointer"><Link href="#contact">{t('contact')}</Link></li>
                 </ul>
                 <DropDown/>

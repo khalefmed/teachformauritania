@@ -92,21 +92,35 @@ export const Fellowship = () => {
                 <p>- {t('fellowship_p_9')}</p>
 
                 <br />
-                {/* Vous êtes prêts (e) à relever le défi et à contribuer à un avenir meilleur pour les enfants mauritaniens ? */}
-                <p>{t('fellowship_p_10')}</p>
-                {/* Postulez des maintenant ! */}
-                <p>{t('fellowship_p_11')}</p>
+                {/* <p>{t('fellowship_p_10')}</p> */}
+                {/* <p>{t('fellowship_p_11')}</p> */}
+                <div className=' flex items-center justify-center'>
+                    <div className="bg-red-200 text-red-800 p-4 rounded-md w-fit">
+                        {t(
+                            'apply_disabled',
+                        )}
+                    </div>
+                </div>
 
-
-            </div>
-            <div className='w-full flex items-center justify-center'>
-                <a href='/apply'>
-                    <div className='px-8 py-3 rounded-md bg-gradient-to-r from-main to-second w-fit text-white font-md  mt-4 text-md'>
+                {/* <div className='w-full flex items-center justify-center mt-2'>
+                    <a href='/apply'>
+                        <div className='px-8 py-3 rounded-md bg-gradient-to-r from-main to-second w-fit text-white font-md  mt-4 text-md'>
+                            {t('apply_now_button')}
+                        </div>
+                    </a>
+                </div> */}
+                <div className='w-full flex items-center justify-center mt-2'>
+                    
+                    <div className='px-8 py-3 cursor-not-allowed rounded-md bg-gradient-to-r from-gray-400 to-gray-400 opacity-40 w-fit text-white font-md  mt-4 text-md'>
                         {t('apply_now_button')}
                     </div>
+                        
+                        
                     
-                </a>
+                </div>
+
             </div>
+            
 
 
         </section>

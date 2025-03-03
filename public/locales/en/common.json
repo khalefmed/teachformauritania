@@ -116,7 +116,7 @@
     "program_date_3": "End of September 2025",
     "program_desc_3": "After successfully completing your training at the Summer Institute, teachers are then deployed to their assigned schools based on vacancies, to teach in primary schools for a paid two-year teaching program. They will also participate in training throughout their two years of teaching.",
     
-    "program_title_4": "Teaching and Training",
+    "program_title_4": "Monitoring and support",
     "program_date_4": "October 2025 - July 2026",
     "program_desc_4" : "Continuous support for development, mentoring, and access to learning as well as professional opportunities. Teach For Mauritania will accompany participants throughout their journey by offering support according to their needs.",
     
@@ -235,6 +235,8 @@
     "fellowship_p_9": "Participate in a final interview",
     "fellowship_p_10": "Are you ready to take on the challenge and contribute to a better future for Mauritanian children?",
     "fellowship_p_11": "Apply now!",
+
+    "apply_disabled" : "The application is not yet open. Come back soon to apply!",
     
     
     

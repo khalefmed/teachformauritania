@@ -6,6 +6,7 @@ import '../../../i18n';
 import { useTranslation } from "react-i18next";
 import DropDownLang from './dropdown_lang';
 import Link from 'next/link';   
+import DropDownInside2 from './dropdown_inside_2';
 
 export const HeaderInside = () => {
     const {t, i18n} = useTranslation();
@@ -17,10 +18,11 @@ export const HeaderInside = () => {
                     <li className="font-medium text-sm cursor-pointer"><Link href="/">{t('home')}</Link></li>
                     <li className="font-medium text-sm cursor-pointer"><Link href="/#about">{t('about')}</Link></li>
                     <li className="font-medium text-sm cursor-pointer"><Link href="/#program">{t('program')}</Link></li>
-                    <li className="font-medium text-sm cursor-pointer"><Link href="/#activities">{t('activities')}</Link></li>
+                    {/* <li className="font-medium text-sm cursor-pointer"><Link href="/#activities">{t('activities')}</Link></li> */}
+                    <li className="font-medium text-sm cursor-pointer"><Link href="/#goal">{t('goal')}</Link></li>
                     <li className="font-medium text-sm cursor-pointer"><Link href="/#contact">{t('contact')}</Link></li>
                 </ul>
-                <DropDown/>
+                <DropDownInside2/>
             </nav>
             <div className="font-medium text-sm cursor-pointer max-md:hidden">
                 <DropDownLang />
