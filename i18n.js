@@ -4,9 +4,9 @@ import { initReactI18next } from 'react-i18next';
 i18n
   .use(initReactI18next)
   .init({
-    fallbackLng: 'fr', // Should match defaultLocale in next-i18next.config.js
+    fallbackLng: 'fr',
     debug: process.env.NODE_ENV === 'development',
-    supportedLngs: ['fr', 'en', 'ar'], // Should match locales in next-i18next.config.js
+    supportedLngs: ['fr', 'en', 'ar'],
     ns: ['common'],
     defaultNS: 'common',
     resources: {

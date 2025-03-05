@@ -48,8 +48,8 @@ export const Hero = () => {
                     opacity : 1,
                     transition : {delay : 0.3, duration: 1}
                 }}
-                 href="/fellowship" className='px-6 py-3 flex flex-row align-center justify-center items-center gap-2 text-white w-fit hover:bg-white hover:text-main border border-white rounded-lg'>
-                    <span className='text-xl'>{t('hero_button')}</span>
+                 href="/fellowship" className='px-4 py-3 transform duration-500 flex flex-row align-center justify-center items-center gap-2 text-white w-fit hover:bg-white hover:text-main border border-white rounded-lg'>
+                    <span className='text-lg'>{t('hero_button')}</span>
                 </motion.a>
             </div>
         </section>

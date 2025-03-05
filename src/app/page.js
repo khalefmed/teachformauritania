@@ -20,7 +20,7 @@ export default function Home() {
   const { i18n } = useTranslation();
 
   useEffect(() => {
-    const lang = window.localStorage.getItem('language') || 'en';
+    const lang = window.localStorage.getItem('language') || 'fr';
     i18n.changeLanguage(lang);
   }, [i18n]);
 

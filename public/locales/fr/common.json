@@ -7,8 +7,9 @@
     "activities" : "Actualités",
     "contact" : "Contact",
 
-    "hero_title" : "Teach for Mauritania",
-    "hero_desc" : "Renforcer l'enseignement pour améliorer l'avenir des enfants, à travers le leadership.",
+    "hero_title" : "Enseigner avec passion, Transformer les communautés",
+    "hero_desc" : "Notre vision : Un jour, chaque enfant aura accès à une éducation de qualité",
+    "hero_desc_2" : "Notre vision : Un jour, chaque enfant aura accès à une éducation de qualité",
     "hero_button" : "Postuler maintenant",
 
     "about_desc" : "Teach for Mauritania (TFM) est une organisation nationale, indépendante et à but non lucratif, dédiée à garantir que chaque enfant en Mauritanie ait accès à une éducation de qualité et inclusive. Nous recrutons et formons des diplômés passionnés, en les transformant en leaders et enseignants capables d'inspirer un changement dans les communautés vulnérables. ",
@@ -16,7 +17,7 @@
     "vision" : "Vision",
     "values" : "Valeurs",
     "mission_desc" : "Offrir une éducation de qualité et inclusive pour tous les enfants en Mauritanie",
-    "vision_desc" : "Former des leaders capables de transformer les communautés par l’éducation",
+    "vision_desc" : "Un enfant, un leader, capable de transformer les communautés grâce au pouvoir de l'éducation",
     "values_desc" : "Leadership, équité, inclusion, et impact social et communautaire",
     "more_details" : "Plus de details",
 
@@ -105,7 +106,7 @@
     
     "fellowship_engagement_li_1": "Je suis en mesure de participer à l'Institut d'été de 8 semaines.",
     "fellowship_engagement_li_2": "Je suis prêt(e) à m'engager à passer deux ans en tant qu'enseignant(e) à temps plein dans une école publique en Mauritanie, conformément au calendrier académique du Ministère de l'Éducation Nationale et de la Réforme.",
-    "fellowship_engagement_li_3": "Je suis en mesure d'assister à toutes les activités de formation et de développement requises pendant le Leadership Journey conformément au calendrier académique du Ministère de l'Éducation Nationale et de la Réforme.",
+    "fellowship_engagement_li_3": "Je suis en mesure d'assister à toutes les activités de formation et de développement requises pendant le programme conformément au calendrier académique du Ministère de l'Éducation Nationale et de la Réforme.",
 
 
     "program_title_1" : "Récrutement, sélection et intégration",
@@ -118,7 +119,7 @@
   
     "program_title_3" : "Placement",
     "program_date_3" : "Fin Septembre 2025",
-    "program_desc_3" : "Après avoir terminé avec succès votre formation au Summer Institute, les enseignants sont ensuite déployés dans les écoles qui leur sont assignées en fonction des postes vacants, pour enseigner dans le primaire pour un programme d'enseignement rémunéré de 2 ans. Ils participeront également à des formations tout au long de leurs deux années d'enseignement.",
+    "program_desc_3" : "Après avoir terminé avec succès la formation à l’institut d’ete, les enseignants sont ensuite déployés dans les écoles qui leur sont assignées en fonction des postes vacants, pour enseigner dans le primaire pour un programme d'enseignement rémunéré de 2 ans. Ils participeront également à des formations tout au long de leurs deux années d'enseignement.",
     
     "program_title_4" : "Suivi et soutien",
     "program_date_4" : "Octobre 2025 - Juillet 2026",
@@ -126,7 +127,7 @@
     
     "program_title_5" : "Alumni",
     "program_date_5" : "Juillet 2026 - Au delà",
-    "program_desc_5" : "Après la Fellowship, tous nos participants ont accès à notre alumni. Cette communauté permet aux gens d'apprendre et d'agir ensemble en faveur de l'équité en matière d'éducation",
+    "program_desc_5" : "Après la Fellowship, tous nos participants ont accès à notre alumni. Cette communauté permet aux gens d'apprendre et d'agir ensemble en faveur de l'équité en matière d'éducation.",
   
     "program_title_6" : "Suivi et évaluation",
     "program_date_6" : "Juillet 2026 - Au delà",
@@ -194,8 +195,8 @@
     "apply_now_button" : "Soumettre ma candidature",
 
     "program_script_1" : "Teach For Mauritania recrute des diplômés universitaires et des professionnels talentueux pour une mission de deux ans, dédiée à l'enseignement et à la création d'un impact durable sur la réussite scolaire et l'avenir des enfants.",
-    "program_script_2" : "Teach For Mauritanie offre aux participants une formation approfondie et un accompagnement continu pour leur développement personnel et professionnel. Le programme débute par une formation intensive de huit semaines en août, animée par des formateurs expérimentés, et se poursuit par un soutien constant tout au long des deux années d'engagement des Fellows. Cette formation ne se limite pas à l'acquisition des compétences nécessaires pour devenir un enseignant efficace, mais inclut également le développement de compétences clés telles que le leadership, l'entrepreneuriat social, la gestion de projets et la réflexion sur divers enjeux.",
-    "program_script_3" : "Après avoir réussi la formation à l'Institut d'été, les enseignants sont affectés aux écoles primaires qui leur sont assignées, où ils commenceront leur mission d'enseignement. Tout au long de leurs deux années d'engagement, ils bénéficieront également de formations continues. Les participants seront considérés comme des enseignants à temps plein, employés par le ministère de l'Éducation nationale, et devront respecter les politiques et procédures en vigueur au sein de leur établissement scolaire.",
+    "program_script_2" : "Teach For Mauritanie offre aux participants une formation approfondie et un accompagnement continu pour leur développement personnel et professionnel. Le programme débute par une formation intensive de huit semaines en août, animée par des formateurs expérimentés, et se poursuit par un soutien constant tout au long des deux années d'engagement des enseignants. Cette formation ne se limite pas à l'acquisition des compétences nécessaires pour devenir un enseignant efficace, mais inclut également le développement de compétences clés telles que le leadership, l'entrepreneuriat social, la gestion de projets et la réflexion sur divers enjeux.",
+    "program_script_3" : "Après avoir réussi avec succès la formation à l'Institut d'été, les enseignants sont affectés aux écoles primaires qui leur sont assignées, où ils commenceront leur mission d'enseignement. Tout au long de leurs deux années d'engagement, ils bénéficieront également de formations continues. Les participants seront considérés comme des enseignants à temps plein et devront respecter les politiques et procédures en vigueur au sein de leur établissement scolaire.",
     "program_script_4": "Soutien continu au développement, mentorat et accès à l'apprentissage ainsi qu'aux opportunités professionnelles.<br>Teach For Mauritania accompagnera les participants tout au long de leur parcours en leur offrant un soutien en fonction de leurs besoins.<br>Ils bénéficieront de visites régulières de leur responsable de programme, qui les aidera à affiner leurs pratiques pédagogiques et à maximiser leur impact en classe.<br>De plus, les participants auront accès à des cercles d'apprentissage par les pairs et à des mentors, renforçant ainsi leur développement professionnel et leur ouverture à des opportunités dans l'entrepreneuriat social.<br>Un suivi constant et des actions de développement seront mis en place pour garantir la réussite des résultats d'apprentissage des élèves.",
     "program_script_5" : "Après leur expérience, les participants rejoignent une communauté dynamique où ils continuent à apprendre, à échanger des idées et à agir ensemble en faveur de l'équité éducative.<br>Ils sont orientés vers divers parcours tout en adoptant une approche systémique pour relever les défis complexes du secteur de l'éducation et promouvoir des solutions durables.",
     "program_script_6" : "Un suivi et un développement continus sont mis en place pour assurer la réussite de tous les participants tout au long de leurs deux années dans les écoles et les communautés où ils sont affectés, et évaluer les résultats d'apprentissage des classes.Les participants bénéficient du soutien constant d'une équipe de coordinateurs pédagogiques et administratifs, ainsi que de formations régulières dispensées par l'équipe du programme. Ces formations sont conçues pour répondre à leurs besoins en matière de valeurs, de connaissances, de compétences et d'expériences nécessaires à la promotion de l'équité en éducation et à la mise en place d'un changement positif à tous les niveaux du système éducatif. ",
