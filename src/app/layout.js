@@ -1,6 +1,5 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Head from 'next/head'; // Import the Head component
 
 const font = Poppins({
   weight: [
@@ -15,29 +14,28 @@ const font = Poppins({
   ],
   subsets: ['latin'],
   display: 'swap',
-})
+});
 
 export const metadata = {
   title: "Teach for Mauritania - Empowering Education",
   description:
     "Teach for Mauritania is dedicated to improving education access and quality for students across the country. Join us in making a difference.",
+  icons: {
+    icon: "/images/logo_icon.png",
+  },
+  openGraph: {
+    title: "Teach For Mauritania - Empowering Education",
+    description:
+      "Teach For Mauritania is committed to transforming education and creating a brighter future for students across Mauritania.",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head> {/* Use the Head component here */}
-        <link rel="icon" href="/logo.png" /> {/* Corrected href */}
-        <meta property="og:title" content="Teach For Mauritania - Empowering Education" />
-        <meta
-          property="og:description"
-          content="Teach For Mauritania is committed to transforming education and creating a brighter future for students across Mauritania."
-        />
-        <meta property="og:image" content="/teachformauritania-preview.png" />
-        <meta property="og:url" content="https://teachformauritania.org" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://teachformauritania.org" />
-      </Head>
       <body className={font.className + " w-screen font-poppins"}>{children}</body>
     </html>
   );
