@@ -303,10 +303,10 @@ const AdditionalInformation = ({ formData, setFormData, errors, t }) => {
         <h4 className="font-semibold text-md">{t('niveau_francais')}</h4>
         <div className="flex flex-row flex-wrap gap-4">
           {[
-            { id: 'nu', label: t('Null') },
-            { id: 'de_base', label: t('De Base') },
+            { id: 'null', label: t('Null') },
+            { id: 'base', label: t('De Base') },
             { id: 'intermediaire', label: t('Intermediaire') },
-            { id: 'avance', label: t('Avancé') },
+            { id: 'avancé', label: t('Avancé') },
           ].map((option) => (
             <label key={option.id} className="flex items-center gap-2">
               <input
@@ -326,10 +326,10 @@ const AdditionalInformation = ({ formData, setFormData, errors, t }) => {
         <h4 className="font-semibold text-md">{t('niveau_arabe')}</h4>
         <div className="flex flex-row flex-wrap gap-4">
           {[
-            { id: 'nu', label: t('Null') },
-            { id: 'de_base', label: t('De Base') },
-            { id: 'intermediaire', label: t('Intermediaire') },
-            { id: 'avance', label: t('Avancé') },
+           { id: 'null', label: t('Null') },
+           { id: 'base', label: t('De Base') },
+           { id: 'intermediaire', label: t('Intermediaire') },
+           { id: 'avancé', label: t('Avancé') },
           ].map((option) => (
             <label key={option.id} className="flex items-center gap-2">
               <input
@@ -349,10 +349,10 @@ const AdditionalInformation = ({ formData, setFormData, errors, t }) => {
         <h4 className="font-semibold text-md">{t('niveau_anglais')}</h4>
         <div className="flex flex-row  flex-wrap gap-4">
           {[
-            { id: 'nu', label: t('Null') },
-            { id: 'de_base', label: t('De Base') },
+            { id: 'null', label: t('Null') },
+            { id: 'base', label: t('De Base') },
             { id: 'intermediaire', label: t('Intermediaire') },
-            { id: 'avance', label: t('Avancé') },
+            { id: 'avancé', label: t('Avancé') },
           ].map((option) => (
             <label key={option.id} className="flex items-center gap-2">
               <input
