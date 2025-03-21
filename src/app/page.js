@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import { About } from "./components/about";
@@ -15,9 +15,24 @@ import { Goal } from "./components/goal";
 import { Partners } from "./components/partners";
 import { Activities } from "./components/activities";
 import { Program } from "./components/program";
+import client from './sanityClient';
 
 export default function Home() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const [content, setContent] = useState();
+
+  useEffect(() => {
+      const fetchNews = async () => {
+          const query = `*[_type == "content"][0]`;
+          
+          const data = await client.fetch(query);
+          setContent(data);
+          console.log(data)
+      };
+
+      fetchNews();
+  }, []);
+  
 
   useEffect(() => {
     const lang = window.localStorage.getItem('language') || 'fr';
@@ -38,11 +53,12 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
-      <ActualSituation />
-      <Goal />
-      <Program />
-      <Partners />
-      {/* <Activities /> */}
+      {content && content.current_situation ? <ActualSituation /> : <></> }
+      {content && content.goal ? <Goal /> : <></> }
+      {content && content.program_koudwa ? <Program /> : <></> }
+      {content && content.partners ? <Partners /> : <></> }
+      {content && content.news ? <Activities /> : <></> }
+      {content && content.current_situation ? <ActualSituation /> : <></> }
       <Contact />
       <Footer />
     </main>

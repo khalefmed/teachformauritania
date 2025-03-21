@@ -1,11 +1,24 @@
 'use client'
-import React from 'react';
+import {useState, React, useEffect} from 'react';
 import '../../../i18n';
 import { useTranslation } from "react-i18next";
 import { motion, useAnimation } from 'framer-motion';
+import client from '../sanityClient';
+import { urlFor } from '../sanityImage';
 
 export const Fellowship = () => {
-    const {t, i18n} = useTranslation();
+    const { t, i18n } = useTranslation();
+    const [activate, setActivate] = useState({});
+
+    useEffect(() => {
+        const fetchNews = async () => {
+            const query = `*[_type == "content"][0]`;
+            
+            const data = await client.fetch(query);
+            setActivate(data);
+        };
+        fetchNews();
+    }, []);
     return (
         <section id="fellowship" className='overflow-hidden flex flex-col  items-center px-28 py-12 gap-12 max-lg:p-8   '>
             <div className='flex flex-col gap-4 items-center'>
@@ -94,30 +107,27 @@ export const Fellowship = () => {
                 <br />
                 {/* <p>{t('fellowship_p_10')}</p> */}
                 {/* <p>{t('fellowship_p_11')}</p> */}
-                <div className=' flex items-center justify-center'>
+                {activate && activate.application ? <></> : <div className=' flex items-center justify-center'>
                     <div className="bg-red-200 text-red-800 p-4 rounded-md w-fit">
                         {t(
                             'apply_disabled',
                         )}
                     </div>
-                </div>
+                </div>}
 
-                {/* <div className='w-full flex items-center justify-center mt-2'>
+                { activate && activate.application ? <div className='w-full flex items-center justify-center mt-2'>
                     <a href='/apply'>
                         <div className='px-8 py-3 rounded-md bg-gradient-to-r from-main to-second w-fit text-white font-md  mt-4 text-md'>
                             {t('apply_now_button')}
                         </div>
                     </a>
-                </div> */}
+                </div>
+                : 
                 <div className='w-full flex items-center justify-center mt-2'>
-                    
                     <div className='px-8 py-3 cursor-not-allowed rounded-md bg-gradient-to-r from-gray-400 to-gray-400 opacity-40 w-fit text-white font-md  mt-4 text-md'>
                         {t('apply_now_button')}
-                    </div>
-                        
-                        
-                    
-                </div>
+                    </div> 
+                </div>}
 
             </div>
             
