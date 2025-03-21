@@ -55,10 +55,9 @@ export default function Home() {
       <About />
       {content && content.current_situation ? <ActualSituation /> : <></> }
       {content && content.goal ? <Goal /> : <></> }
-      {content && content.program_koudwa ? <Program /> : <></> }
       {content && content.partners ? <Partners /> : <></> }
+      {content && content.program_koudwa ? <Program /> : <></> }
       {content && content.news ? <Activities /> : <></> }
-      {content && content.current_situation ? <ActualSituation /> : <></> }
       <Contact />
       <Footer />
     </main>
