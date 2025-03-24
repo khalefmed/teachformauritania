@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import { motion, useAnimation } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
-export const Contact = () => {
+export const Contact = ({contact}) => {
     const {t, i18n} = useTranslation();
     const form = useRef();
 
@@ -73,7 +73,7 @@ export const Contact = () => {
                         <img src="images/contact_phone_icon.png" width={35} alt="" />
                         <div className='flex flex-col items-start'>
                             <h1 className='font-medium'>{t('phone')}</h1>
-                            <p className='text-sm'>+222 34 45 07 17</p>
+                            <p className='text-sm'>{contact.phone}</p>
                         </div>
                     </div>
                     {/* Contact box */}
@@ -81,7 +81,7 @@ export const Contact = () => {
                         <img src="images/contact_email_icon.png" width={35} alt="" />
                         <div className='flex flex-col items-start'>
                             <h1 className='font-medium'>{t('mail')}</h1>
-                            <p className='text-sm'>contact@teachformauritania.org</p>
+                            <p className='text-sm'>{contact.email}</p>
                         </div>
                     </div>
                     {/* Contact box */}
@@ -89,7 +89,7 @@ export const Contact = () => {
                         <img src="images/contact_location_icon.png" width={35} alt="" />
                         <div className='flex flex-col items-start'>
                             <h1 className='font-medium'>{t('adress')}</h1>
-                            <p className='text-sm'>ZRA 110, Nouakchott, Mauritanie</p>
+                            <p className='text-sm'>{contact.location}</p>
                         </div>
                     </div>
                 </div>

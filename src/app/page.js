@@ -2,14 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { useTranslation } from "next-i18next";
-import Image from "next/image";
 import { About } from "./components/about";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
-import { Services } from "./components/services";
-import { WhyUs } from "./components/why_us";
 import { ActualSituation } from "./components/actual_situation";
 import { Goal } from "./components/goal";
 import { Partners } from "./components/partners";
@@ -20,13 +17,18 @@ import client from './sanityClient';
 export default function Home() {
   const { t, i18n } = useTranslation();
   const [content, setContent] = useState();
+  const [contact, setContact] = useState();
 
   useEffect(() => {
       const fetchNews = async () => {
-          const query = `*[_type == "content"][0]`;
+        const query = `{
+          "content": *[_type == "content"][0],
+          "contact": *[_type == "contact"][0]
+        }`;
           
           const data = await client.fetch(query);
-          setContent(data);
+          setContent(data['content']);
+          setContact(data['contact']);
           console.log(data)
       };
 
@@ -58,8 +60,8 @@ export default function Home() {
       {content && content.partners ? <Partners /> : <></> }
       {content && content.program_koudwa ? <Program /> : <></> }
       {content && content.news ? <Activities /> : <></> }
-      <Contact />
-      <Footer />
+      {contact && <Contact contact={contact} />}
+      {contact && <Footer contact={contact} />}
     </main>
   );
 }

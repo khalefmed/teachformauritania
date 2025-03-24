@@ -29,7 +29,7 @@ export default function AboutPage() {
     >
       <HeaderInside />
       <AboutPageComponent />
-      {/* <OurTeam /> */}
+      <OurTeam />
       <Footer />
     </main>
   );
