@@ -2,8 +2,8 @@
 import {React, useState, useEffect} from 'react';
 import '../../../i18n';
 import { useTranslation } from "react-i18next";
-import client from '../../sanityClient';
-import { urlFor } from '../../sanityImage';
+import client from '../sanityClient';
+import { urlFor } from '../sanityImage';
 
 export const FooterInside2 = () => {
     const {t} = useTranslation();
