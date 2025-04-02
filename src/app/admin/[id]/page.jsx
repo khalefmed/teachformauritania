@@ -3,8 +3,6 @@
 import { useEffect } from "react";
 import { useTranslation } from "next-i18next";
 import { AboutPageComponent } from "../../components/about_page";
-import { Header } from "../../components/header";
-import { Footer } from "../../components/footer";
 import { HeaderInside } from "../../components/header_inside";
 import ApplicationDetails from "@/app/components/application_details";
 import { FooterInside2 } from "@/app/components/footer_inside_2";

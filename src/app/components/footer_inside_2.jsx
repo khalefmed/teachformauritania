@@ -23,19 +23,19 @@ export const FooterInside2 = () => {
     }, []);
     
     return (
-        (footer && <footer className='flex flex-row max-sm:flex-col max-sm:justify-start max-sm:gap-16 justify-between bg-main px-28 py-8 max-sm:px-8 max-w-screen'>
+        (contact && <footer className='flex flex-row max-sm:flex-col max-sm:justify-start max-sm:gap-16 justify-between bg-main px-28 py-8 max-sm:px-8 max-w-screen'>
             <div className='flex flex-col gap-8'>
                 <img src="../images/logo_white.png" height={10} width={150} alt="" />
                 <div className='flex flex-col justify-start gap-3'>
-                    <div className='flex flex-row items-center gap-2 text-fieldText'>
+                    <div className='flex flex-row items-center gap-2 text-white'>
                         <img src="../images/email_icon.png" width={20} alt="" />
                         <p className='text-sm'>{contact.email}</p>
                     </div>
-                    <div className='flex flex-row items-center gap-2 text-fieldText'>
+                    <div className='flex flex-row items-center gap-2 text-white'>
                         <img src="../images/phone_icon.png" width={20} alt="" />
                         <p className='text-sm'>{contact.phone}</p>
                     </div>
-                    <div className='flex flex-row items-center gap-2 text-fieldText'>
+                    <div className='flex flex-row items-center gap-2 text-white'>
                         <img src="../images/location_icon.png" width={20} alt="" />
                         <p className='text-sm'>{contact.location}</p>
                     </div>
@@ -45,7 +45,7 @@ export const FooterInside2 = () => {
 
             <div className='flex flex-col gap-3'>
                 <h3 className='text-2xl font-semibold text-white'>{t('links')}</h3>
-                <ul className=' text-sm flex flex-col gap-2 text-fieldText'>
+                <ul className=' text-sm flex flex-col gap-2 text-white'>
                     <li><a href="#hero">{t('home')}</a></li>
                     <li><a href="#about">{t('about')}</a></li>
                     <li><a href="#program">{t('program')}</a></li>
