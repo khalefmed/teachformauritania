@@ -20,7 +20,7 @@ export const Fellowship = () => {
         fetchNews();
     }, []);
     return (
-        <section id="fellowship" className='overflow-hidden flex flex-col  items-center px-28 py-12 gap-12 max-lg:p-8   '>
+        <section id="fellowship" className={'overflow-hidden flex flex-col  items-center px-28 py-12 gap-12 max-lg:p-8   '}>
             <div className='flex flex-col gap-4 items-center'>
             { i18n.language == "ar" 
             ? 

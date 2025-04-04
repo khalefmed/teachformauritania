@@ -28,7 +28,7 @@ export default function NewsDetailsPage() {
 
   return (
     <main
-      className="bg-white w-screen overflow-x-hidden min-h-[100vh]"
+      className={"bg-white w-screen overflow-x-hidden min-h-[100vh]" + (i18n.language == "ar" ? " arabic-content " : " ")}
       dir={langDir[language] || 'ltr'}
     >
       {id && <HeaderInside2 />}

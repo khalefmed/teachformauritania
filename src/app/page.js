@@ -49,7 +49,7 @@ export default function Home() {
 
   return (
     <main
-      className="bg-white  "
+      className={"bg-white  " +  (i18n.language == "ar" ? "arabic-content" : " ")}
       dir={langDir[i18n.language] || 'ltr'}
     >
       <Header />

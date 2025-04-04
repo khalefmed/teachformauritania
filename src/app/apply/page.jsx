@@ -22,7 +22,7 @@ export default function NewsPage() {
 
   return (
     <main
-      className="bg-white w-screen overflow-x-hidden font-poppins"
+      className={"bg-white w-screen overflow-x-hidden font-poppins" + (i18n.language == "ar" ? " arabic-content " : " ")}
       dir={langDir[i18n.language] || 'ltr'}
     >
       <HeaderInside />

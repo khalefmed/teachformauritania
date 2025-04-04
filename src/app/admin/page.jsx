@@ -25,7 +25,7 @@ export default function AboutPage() {
 
   return (
     <main
-      className="bg-white w-screen overflow-x-hidden "
+      className={"bg-white w-screen overflow-x-hidden " + (i18n.language == "ar" ? " arabic-content " : " ")}
       dir={langDir[i18n.language] || 'ltr'}
     >
       {/* <HeaderInside /> */}

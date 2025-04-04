@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Noto+Kufi+Arabic:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 
 * {
   font-family: 'Roboto', sans-serif !important;
@@ -14,6 +17,10 @@
   margin : 0;
   padding : 0;
   box-sizing: border-box;
+}
+
+.arabic-content {
+  font-family: 'Cairo', sans-serif !important;
 }
 
 .custom-file-upload {
